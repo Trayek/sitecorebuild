@@ -1,0 +1,157 @@
+----item----
+version: 1
+id: {F0517BF7-2562-41D3-9790-4629033240F5}
+database: master
+path: /sitecore/content/Prudential/Home/News/2015/08/03/21/01/tom jones and van morrison team up for prudential bluesfest
+parent: {989E4834-F7E8-49C2-B584-C4D090B1D56A}
+name: tom jones and van morrison team up for prudential bluesfest
+master: {00000000-0000-0000-0000-000000000000}
+template: {2F75C8AF-35FC-4A88-B585-7595203F442C}
+templatekey: News Article
+
+----field----
+field: {148746F5-2342-4547-ACAC-A9065F6B7ED5}
+name: Date
+key: date
+content-length: 9
+
+20150803Z
+----field----
+field: {5585A30D-B115-4753-93CE-422C3455DEB2}
+name: ShowInNavigation
+key: showinnavigation
+content-length: 0
+
+
+----field----
+field: {A1816D65-769A-4B09-89F6-B20665024CBF}
+name: ShowInSideNavigation
+key: showinsidenavigation
+content-length: 0
+
+
+----field----
+field: {9DAFCA1D-D618-4616-86B8-A8ACD6B28A63}
+name: __Bucket Parent Reference
+key: __bucket parent reference
+content-length: 38
+
+{7E73DB7F-2736-492F-B819-9CD14A17098A}
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 1010
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" s:l="{C8F9EF84-39E2-4E07-A5DB-61B0FFF2849B}"><r uid="{F3D0BE18-3423-4993-AC66-63AB76B815F3}"><p:d /></r><r uid="{A00E5682-7E52-4319-B0B8-106AC7D566D7}"><p:d /></r><r uid="{5414CAF6-2BD5-4304-A363-300BDBCAF7DF}" p:before="r[@uid='{26B1D65C-6E4D-4F7B-A93B-CBA40086D99C}']" s:id="{B569EE1E-10E6-480B-996D-F484EF0AED4A}" s:ph="/content_00000000-0000-0000-0000-000000000000/column2_2d4f3a08-49c3-418a-b761-d107658dc34b" /><r uid="{26B1D65C-6E4D-4F7B-A93B-CBA40086D99C}" p:before="r[@uid='{2D4F3A08-49C3-418A-B761-D107658DC34B}']" s:id="{A973B47E-48F6-4345-B984-7126677DD8A6}" s:ph="/content_00000000-0000-0000-0000-000000000000/column1_2d4f3a08-49c3-418a-b761-d107658dc34b" /><r uid="{2D4F3A08-49C3-418A-B761-D107658DC34B}" s:ds="" s:id="{FEDC3E28-2559-40F8-A08B-76BC7B42BB61}" s:par="FullWidth&amp;ShowTitle=1&amp;ShowBreadcrumb=1&amp;Column1Width=9&amp;Column2Width=3" s:ph="content_00000000-0000-0000-0000-000000000000" /></d></r>
+----version----
+language: en
+version: 1
+revision: b7c60a09-49f7-4749-901e-b9d0c5a9161e
+
+----field----
+field: {CA0479CE-0BFE-4522-83DE-BA688B380A78}
+name: BrowserTitle
+key: browsertitle
+content-length: 59
+
+Tom Jones and Van Morrison team up for Prudential Bluesfest
+----field----
+field: {AC3FD4DB-8266-476D-9635-67814D91E901}
+name: Summary
+key: summary
+content-length: 259
+
+THE ORGANISERS OF THIS YEAR&rsquo;S PRUDENTIAL BLUESFEST, WHICH TAKES PLACE AT THE O2 IN NOVEMBER, HAVE ANNOUNCED THAT TWO OF MUSIC&rsquo;S MOST ICONIC FIGURES WILL TEAM UP FOR A ONE-NIGHT-ONLY DOUBLE BILL ON NOVEMBER 8TH, THE FINAL NIGHT OF THE FESTIVAL.<br>
+----field----
+field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
+name: Body
+key: body
+content-length: 2843
+
+<p>Billed as &lsquo;Bring It On Home &ndash; an evening with Tom Jones and Van Morrison&rsquo;, a nod to the 2003 studio session which featured Jones, Morrison and Jeff Beck performing a unique rendition of Sam Cooke&rsquo;s Bring It On Home To Me, this exclusive concert will feature two full solo sets with each legend and their bands, as well as the possibility of a duet or two throughout the evening.</p>
+<p>This extraordinary performance collaboration will bring together two legendary artists who have been firm friends since the mid-60s, when Jones was performing as &lsquo;Tom Jones and The Squires&rsquo; and Morrison was with &lsquo;Them&rsquo;. Despite having joined forces on record a number of times, the pair have never performed together publicly and this hugely anticipated concert, the finale of Prudential BluesFest 2015, presents the perfect opportunity for these two giants of R&amp;B and soul to share the stage.</p>
+<p>Watch Tom Jones, Van Morrison,&nbsp;&amp; Jeff Beck performing together at the aforementioned Abbey Road session in 2003:&nbsp;<a href="https://www.youtube.com/watch?v=97MZWlkLpHw" target="_blank" title="Link opens in a new window">https://www.youtube.com/watch?v=97MZWlkLpHw</a></p>
+<p>Other artists performing across the weekend include Grammy-winning blues-rock group Tedeschi Trucks Band, British blues star Jo Harman, the wildly popular Dave Matthews Band and one of the most respected artists on the UK blues scene, guitarist and singer Matt Schofield, who performs at Brooklyn Bowl on Nov 8th.</p>
+<p>Prudential, the UK&rsquo;s leading life and pensions provider, has also been confirmed as the London festival&rsquo;s first title sponsor.</p>
+<p>Festival Director Leo Green:</p>
+<p>"We&rsquo;re delighted to be welcoming Van Morrison &amp; Tom Jones back to the festival for their double header at The O2 Arena on Nov 8th - both playing full sets with their bands and hopefully a few duets together too. With Dave Matthews Band, Tedeschi Trucks Band, Jo Harman and Matt Schofield also on the bill, this year&rsquo;s event is shaping up to be our strongest to date. It's also great to be welcoming Prudential on board - having spent considerable time talking with them, they are genuinely excited about the variety of music BluesFest will showcase and what a great festival we have to look forward to. They are a very welcome addition to the team.&rdquo;</p>
+<p>Prudential BluesFest 2015 runs from November 6th &ndash; 8th and takes place exclusively at The O2 in North Greenwich. Tickets are available from&nbsp;<a href="http://www.livenation.co.uk/" target="_blank" title="Link opens in a new window">www.livenation.co.uk</a>&nbsp;and AXS.com.</p>
+<p>For further information, please contact Joe Baxter at Air on&nbsp;<a href="mailto:Joe@airmtm.com">Joe@airmtm.com</a>&nbsp;/ 020 7386 1605</p>
+----field----
+field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
+name: Image
+key: image
+content-length: 65
+
+<image mediaid="{68035393-948E-458E-9E52-02B7EED3F19E}" ></image>
+----field----
+field: {1B483E91-D8C4-4D19-BA03-462074B55936}
+name: ShortTitle
+key: shorttitle
+content-length: 59
+
+Tom Jones and Van Morrison team up for Prudential Bluesfest
+----field----
+field: {C30A013F-3CC8-4961-9837-1C483277084A}
+name: Title
+key: title
+content-length: 59
+
+Tom Jones and Van Morrison team up for Prudential Bluesfest
+----field----
+field: {BB7A38C0-323C-4F81-8EB9-288ABF7C4638}
+name: SeoMetaDescription
+key: seometadescription
+content-length: 184
+
+THE ORGANISERS OF THIS YEAR'S PRUDENTIAL BLUESFEST, WHICH TAKES PLACE AT THE O2 IN NOVEMBER, HAVE ANNOUNCED THAT TWO OF MUSIC'S MOST ICONIC FIGURES WILL TEAM UP FOR A ONE-NIGHT-ONLY...
+----field----
+field: {A12D5346-87EE-484D-83C5-F1E8E1B99666}
+name: OpenGraphDescription
+key: opengraphdescription
+content-length: 0
+
+
+----field----
+field: {11F41661-E5FE-44E7-B8DA-7CFF2D39B4B2}
+name: OpenGraphImage
+key: opengraphimage
+content-length: 0
+
+
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 733
+
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" s:l="{A55B28C9-68C8-4194-AF81-A537995FD51B}"><r uid="{5414CAF6-2BD5-4304-A363-300BDBCAF7DF}"><p:d /></r><r uid="{26B1D65C-6E4D-4F7B-A93B-CBA40086D99C}"><p:d /></r><r uid="{F3D0BE18-3423-4993-AC66-63AB76B815F3}" p:before="r[@uid='{A00E5682-7E52-4319-B0B8-106AC7D566D7}']" s:id="{A973B47E-48F6-4345-B984-7126677DD8A6}" s:ph="/content/column1_a00e5682-7e52-4319-b0b8-106ac7d566d7" /><r uid="{A00E5682-7E52-4319-B0B8-106AC7D566D7}" s:ds="" s:id="{FEDC3E28-2559-40F8-A08B-76BC7B42BB61}" s:par="FullWidth&amp;ShowTitle&amp;ShowBreadcrumb&amp;Column1Width&amp;Column2Width" s:ph="content" /><r uid="{2D4F3A08-49C3-418A-B761-D107658DC34B}"><p:d /></r></d></r>
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150803T210123Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b7c60a09-49f7-4749-901e-b9d0c5a9161e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150803T211746Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
