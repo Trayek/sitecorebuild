@@ -19,7 +19,7 @@ content-length: 38
 ----version----
 language: en
 version: 1
-revision: 1ff3b93f-0894-46b1-bbf5-7ffc3e2fc6ee
+revision: 95d1d0dd-cbfe-49ed-ba7c-30d85c50be11
 
 ----field----
 field: {4C245976-F742-4291-843F-998DAD47708A}
@@ -27,7 +27,7 @@ name: Logo
 key: logo
 content-length: 58
 
-<image mediaid="{9CDE825E-AABD-463B-B549-11DD7E1E274D}" />
+<image mediaid="{88C3D66A-DD1C-4830-8696-42B86B0A6F5C}" />
 ----field----
 field: {7A40C9D8-1018-44F0-A341-E47C5DFAE811}
 name: NavBar Color
@@ -62,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-1ff3b93f-0894-46b1-bbf5-7ffc3e2fc6ee
+95d1d0dd-cbfe-49ed-ba7c-30d85c50be11
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150803T140503Z
+20150803T205043Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

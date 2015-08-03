@@ -1,0 +1,37 @@
+﻿body {
+    background-color: #f1ede2;
+}
+
+.body-wrapper:before {
+    top: 0;
+    background: url(/Content/images/bg-top.png);
+    background-repeat: repeat-x;
+}
+
+.body-wrapper {
+    position: relative;
+    letter-spacing: 1px;
+    -webkit-font-smoothing: antialiased;
+    background: url(/Content/images/bg-texture.png);
+}
+
+    .body-wrapper:after {
+        bottom: 0;
+        background: url(/Content/images/bg-top.png) bottom;
+        background-repeat: repeat-x;
+        -moz-transform: scaleY(-1);
+        -webkit-transform: scaleY(-1);
+        -o-transform: scaleY(-1);
+        transform: scaleY(-1);
+        -ms-filter: flipv;
+        filter: flipv;
+    }
+
+    .body-wrapper:before, .body-wrapper:after {
+        content: "";
+        display: block;
+        width: 100%;
+        z-index: -50;
+        position: absolute;
+        height: 327px;
+    }
