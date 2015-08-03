@@ -1,0 +1,549 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{86CADB26-5817-46B6-88C7-76D5753722C3}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Spitfire.Website</RootNamespace>
+    <AssemblyName>Spitfire.Website</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\</SolutionDir>
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <ExcludeFilesFromDeployment>bin\Sitecore.*.dll</ExcludeFilesFromDeployment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExcludeFilesFromDeployment>bin\Sitecore.*.dll</ExcludeFilesFromDeployment>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="DynamicPlaceholders">
+      <HintPath>..\..\packages\DynamicPlaceholders.1.0.0.0\lib\net45\DynamicPlaceholders.dll</HintPath>
+    </Reference>
+    <Reference Include="DynamicPlaceholders.Mvc">
+      <HintPath>..\..\packages\DynamicPlaceholders.Mvc.1.0.0.0\lib\net45\DynamicPlaceholders.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="Kamsar.WebConsole">
+      <HintPath>..\..\packages\Kamsar.WebConsole.1.2.2.0\lib\net40\Kamsar.WebConsole.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Ninject, Version=3.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\Ninject.3.2.2.0\lib\net45-full\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Analytics, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Sitecore\Sitecore.Analytics.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.Analytics.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Sitecore\Sitecore.Analytics.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.Analytics.Model, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Sitecore\Sitecore.Analytics.Model.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.ContentSearch, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Sitecore\Sitecore.ContentSearch.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Kernel">
+      <HintPath>..\..\lib\Sitecore\Sitecore.Kernel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.Mvc, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\lib\Sitecore\Sitecore.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.Mvc.Analytics">
+      <HintPath>..\..\lib\Sitecore\Sitecore.Mvc.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebApi.Client.5.1.0\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\Microsoft.AspNet.WebPages.3.1.0\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=5.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebApi.Core.5.1.0\lib\net45\System.Web.Http.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Microsoft.AspNet.WebApi.WebHost.5.1.0\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\..\packages\Microsoft.AspNet.Mvc.5.1.0\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\Microsoft.AspNet.Razor.3.1.0\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\Microsoft.AspNet.WebPages.3.1.0\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\Microsoft.AspNet.WebPages.3.1.0\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\Microsoft.AspNet.WebPages.3.1.0\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="Unicorn">
+      <HintPath>..\..\packages\Unicorn.2.0.4\lib\net45\Unicorn.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease, Version=1.6.5135.21930, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="App_Start\WebApiHandler.cs" />
+    <Compile Include="Controllers\HealthController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\Build\DeployMarketingAssets.ashx.cs">
+      <DependentUpon>DeployMarketingAssets.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\Build\RebuildLinkDatabases.ashx.cs">
+      <DependentUpon>RebuildLinkDatabases.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\Build\RebuildSearchIndexes.ashx.cs">
+      <DependentUpon>RebuildSearchIndexes.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\Logout.ashx.cs">
+      <DependentUpon>Logout.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\RegisterGoal.ashx.cs">
+      <DependentUpon>RegisterGoal.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handlers\SessionEnd.ashx.cs">
+      <DependentUpon>SessionEnd.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\Core\Components\Overview\RecentItems.css" />
+    <Content Include="assets\Core\Components\Portfolio\our-clients.css" />
+    <Content Include="assets\Core\Components\Profiles\profiles.js" />
+    <Content Include="assets\Core\Components\Snippets\service-box.css" />
+    <Content Include="assets\Core\Layouts\Metronic\footer.css" />
+    <Content Include="assets\Core\Layouts\Metronic\pre-footer.css" />
+    <Content Include="assets\Core\Layouts\Metronic\pre-footer.js" />
+    <Content Include="assets\Core\Layouts\Search\Images\Google\chrome-48.png" />
+    <Content Include="assets\Core\Layouts\Search\Images\Google\close_sm.gif" />
+    <Content Include="assets\Core\Layouts\Search\Images\Google\google-favicon-logo-vector-400x400.png" />
+    <Content Include="assets\Core\Layouts\Search\Images\Google\logo3w.png" />
+    <Content Include="assets\Core\Layouts\Search\Images\Google\map.gif" />
+    <Content Include="assets\Core\Layouts\Search\Images\Google\mgyhp_sm.png" />
+    <Content Include="assets\Core\Layouts\Search\Images\Google\nav_logo170.png" />
+    <Content Include="assets\Core\Layouts\Search\Images\Google\nav_logo170_hr.png" />
+    <Content Include="assets\Core\Layouts\Search\Images\Google\nav_logo83.png" />
+    <Content Include="assets\Global\App\owl-carousel.js" />
+    <Content Include="assets\Global\App\revolution-slider.js" />
+    <Content Include="assets\Global\Plugins\owl-carousel\AjaxLoader.gif" />
+    <Content Include="assets\Global\Plugins\owl-carousel\grabbing.png" />
+    <Content Include="assets\Global\Plugins\owl-carousel\owl.carousel.css" />
+    <Content Include="assets\Global\Plugins\owl-carousel\owl.carousel.js" />
+    <Content Include="assets\Global\Plugins\owl-carousel\owl.carousel.min.js" />
+    <Content Include="assets\Global\Plugins\owl-carousel\owl.theme.css" />
+    <Content Include="assets\Global\Plugins\owl-carousel\owl.transitions.css" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\arrowleft.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\arrowright.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\arrow_large_left.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\arrow_large_right.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\arrow_left.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\arrow_left2.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\arrow_right.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\arrow_right2.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\black50.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\boxed_bgtile.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\bullet.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\bullets.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\bullets2.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\bullet_boxed.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\coloredbg.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\grain.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\gridtile.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\gridtile_3x3.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\gridtile_3x3_white.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\gridtile_white.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\large_left.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\large_right.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\loader.gif" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\loader2.gif" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\navigdots.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\navigdots_bgtile.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\shadow1.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\shadow2.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\shadow3.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\small_left.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\small_left_boxed.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\small_right.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\small_right_boxed.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\timer.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\timerdot.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\transparent.jpg" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\white50.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\css\settings-ie8.css" />
+    <Content Include="assets\Global\Plugins\revolution-slider\css\settings.css" />
+    <Content Include="assets\Global\Plugins\revolution-slider\css\revolution-slider.css" />
+    <Content Include="assets\Global\Plugins\revolution-slider\font\revicons.svg" />
+    <Content Include="assets\Global\Plugins\revolution-slider\images\decor_inside.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\images\decor_inside_white.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\images\decor_testimonial.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\images\gradient\g30.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\images\gradient\g40.png" />
+    <Content Include="assets\Global\Plugins\revolution-slider\js\jquery.themepunch.revolution.js" />
+    <Content Include="assets\Global\Plugins\revolution-slider\js\jquery.themepunch.revolution.min.js" />
+    <Content Include="assets\Global\Plugins\revolution-slider\js\jquery.themepunch.tools.min.js" />
+    <Content Include="Content\animate.css" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="assets\Core\Components\Text\BlockQuote.css" />
+    <Content Include="Content\finance.css" />
+    <Content Include="Content\global.css" />
+    <Content Include="Content\plugins\animate\animate.css" />
+    <Content Include="Content\plugins\fontawesome\css\font-awesome.css" />
+    <Content Include="Content\plugins\fontawesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\plugins\jquery.fs.wallpaper\jquery.fs.wallpaper.css" />
+    <Content Include="Content\plugins\magnific-popup\magnific-popup.css" />
+    <Content Include="Content\plugins\owl-carousel\AjaxLoader.gif" />
+    <Content Include="Content\plugins\owl-carousel\grabbing.png" />
+    <Content Include="Content\plugins\owl-carousel\owl.carousel.css" />
+    <Content Include="Content\plugins\owl-carousel\owl.theme.css" />
+    <Content Include="Content\plugins\owl-carousel\owl.transitions.css" />
+    <Content Include="Content\plugins\rrsocialshare\rrssb.css" />
+    <Content Include="Content\plugins\vitality\vitality-custom.css" />
+    <Content Include="Content\plugins\vitality\vitality-red.css" />
+    <Content Include="Content\microsoft.css" />
+    <Content Include="Content\themes\Blue\Blue.css" />
+    <Content Include="Content\themes\Blue\header-bg.png" />
+    <Content Include="Content\themes\Gold\Gold.css" />
+    <Content Include="Content\themes\Gold\header-bg.png" />
+    <Content Include="Content\themes\Green\Green.css" />
+    <Content Include="Content\themes\Green\header-bg.png" />
+    <Content Include="Content\themes\GreyGreen\GreyGreen.css" />
+    <Content Include="Content\themes\GreyGreen\header-bg.png" />
+    <Content Include="Content\themes\Pink\header-bg.png" />
+    <Content Include="Content\themes\Pink\Pink.css" />
+    <Content Include="Content\wrapbootstrap.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\app\inspinia.js" />
+    <Content Include="Scripts\app\vitality.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="App_Config\Include\DynamicPlaceholders\DynamicPlaceholders.config" />
+    <None Include="App_Config\Include\zSpitfire\Readme.md" />
+    <Content Include="App_Config\Include\Serialization.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Handlers\RegisterGoal.ashx" />
+    <Content Include="Handlers\SessionEnd.ashx" />
+    <Content Include="App_Config\Include\zSpitfire\Sites.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Config\Include\zSpitfire\PerformanceTweaks.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Config\Include\zSpitfire\FieldFallback.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="sitecore modules\shell\Web Forms for Marketers\themes\metronic.css" />
+    <Content Include="webedit.css" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\plugins\fontawesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="Content\plugins\fontawesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Content\plugins\fontawesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="Content\plugins\fontawesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Content\plugins\fontawesome\fonts\FontAwesome.otf" />
+    <Content Include="Content\plugins\fontawesome\less\animated.less" />
+    <Content Include="Content\plugins\fontawesome\less\bordered-pulled.less" />
+    <Content Include="Content\plugins\fontawesome\less\core.less" />
+    <Content Include="Content\plugins\fontawesome\less\fixed-width.less" />
+    <Content Include="Content\plugins\fontawesome\less\font-awesome.less" />
+    <Content Include="Content\plugins\fontawesome\less\icons.less" />
+    <Content Include="Content\plugins\fontawesome\less\larger.less" />
+    <Content Include="Content\plugins\fontawesome\less\list.less" />
+    <Content Include="Content\plugins\fontawesome\less\mixins.less" />
+    <Content Include="Content\plugins\fontawesome\less\path.less" />
+    <Content Include="Content\plugins\fontawesome\less\rotated-flipped.less" />
+    <Content Include="Content\plugins\fontawesome\less\stacked.less" />
+    <Content Include="Content\plugins\fontawesome\less\variables.less" />
+    <Content Include="Content\plugins\fontawesome\scss\font-awesome.scss" />
+    <Content Include="Content\plugins\fontawesome\scss\_animated.scss" />
+    <Content Include="Content\plugins\fontawesome\scss\_bordered-pulled.scss" />
+    <Content Include="Content\plugins\fontawesome\scss\_core.scss" />
+    <Content Include="Content\plugins\fontawesome\scss\_fixed-width.scss" />
+    <Content Include="Content\plugins\fontawesome\scss\_icons.scss" />
+    <Content Include="Content\plugins\fontawesome\scss\_larger.scss" />
+    <Content Include="Content\plugins\fontawesome\scss\_list.scss" />
+    <Content Include="Content\plugins\fontawesome\scss\_mixins.scss" />
+    <Content Include="Content\plugins\fontawesome\scss\_path.scss" />
+    <Content Include="Content\plugins\fontawesome\scss\_rotated-flipped.scss" />
+    <Content Include="Content\plugins\fontawesome\scss\_stacked.scss" />
+    <Content Include="Content\plugins\fontawesome\scss\_variables.scss" />
+    <Content Include="App_Config\Include\zSpitfire\ManualCoreIndexing.config" />
+    <Content Include="App_Config\Include\zSpitfire\ship.config" />
+    <Content Include="App_Config\Include\zSpitfire\Spitfire.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Handlers\Logout.ashx" />
+    <Content Include="App_Config\Include\zSpitfire\WebApi.config" />
+    <Content Include="Handlers\Build\DeployMarketingAssets.ashx" />
+    <Content Include="Handlers\Build\RebuildLinkDatabases.ashx" />
+    <Content Include="Handlers\Build\RebuildSearchIndexes.ashx" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\arrows.psd" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\bullets.psd" />
+    <Content Include="assets\Global\Plugins\revolution-slider\assets\small_arrows.psd" />
+    <Content Include="assets\Global\Plugins\revolution-slider\font\revicons.eot" />
+    <Content Include="assets\Global\Plugins\revolution-slider\font\revicons.ttf" />
+    <Content Include="assets\Global\Plugins\revolution-slider\font\revicons.woff" />
+    <None Include="Properties\PublishProfiles\Spitfire.pubxml" />
+    <None Include="Scripts\jquery-2.1.1.intellisense.js" />
+    <None Include="Scripts\jquery-1.8.0.intellisense.js" />
+    <Content Include="Scripts\jquery-1.8.0.js" />
+    <Content Include="Scripts\jquery-1.8.0.min.js" />
+    <Content Include="Scripts\jquery-2.1.1.js" />
+    <Content Include="Scripts\jquery-2.1.1.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\Core\Layouts\Inspinia\Inspinia.cshtml" />
+    <Content Include="Views\Core\Layouts\Inspinia\Navigation.cshtml" />
+    <Content Include="Views\Core\Layouts\Inspinia\TopNavbar.cshtml" />
+    <Content Include="Views\Core\Layouts\Inspinia\LogoBar.cshtml" />
+    <Content Include="Views\Core\Scaffolding\row.cshtml" />
+    <Content Include="Views\Core\Scaffolding\col.cshtml" />
+    <Content Include="Views\Core\Layouts\Inspinia\Index.cshtml" />
+    <Content Include="Views\Core\Layouts\Inspinia\OffCanvas.cshtml" />
+    <Content Include="Views\Core\Layouts\Vitality\Vitality.cshtml" />
+    <Content Include="Views\Core\Layouts\Vitality\NavList.cshtml" />
+    <Content Include="Views\Core\Layouts\Vitality\SocialShare.cshtml" />
+    <Content Include="Views\Core\Components\Snippets\OwlCarousel.cshtml" />
+    <Content Include="Views\Core\Components\Headers\SectionHeader.cshtml" />
+    <Content Include="Views\Core\Layouts\Vitality\NavBar.cshtml" />
+    <Content Include="Views\Core\Components\Video\VideoBanner.cshtml" />
+    <Content Include="Views\Core\Components\Images\ImageBanner.cshtml" />
+    <Content Include="Views\Core\Scaffolding\section.cshtml" />
+    <Content Include="Views\Core\Components\Snippets\IconTeaser.cshtml" />
+    <Content Include="Views\Core\Scaffolding\aside.cshtml" />
+    <Content Include="Views\Core\Components\Snippets\IconLeftTeaser.cshtml" />
+    <Content Include="Views\Core\Components\Portfolio\SectionPortfolio.cshtml" />
+    <Content Include="Views\Core\Components\Snippets\TeaserGallery.cshtml" />
+    <Content Include="Views\Core\Components\Text\TestimonialsCarousel.cshtml" />
+    <Content Include="Views\Core\Components\Snippets\PromoTeaser.cshtml" />
+    <Content Include="Views\Core\Components\Contact\ContactForm.cshtml" />
+    <Content Include="Views\Core\Components\Navigation\LinkBar.cshtml" />
+    <Content Include="Views\Core\Layouts\Vitality\Footer.cshtml" />
+    <Content Include="Views\Core\Components\Snippets\ImageText.cshtml" />
+    <Content Include="Views\Core\Components\Video\Video.cshtml" />
+    <Content Include="Views\Core\Components\Social\SocialIcons.cshtml" />
+    <Content Include="Views\Core\Components\Text\BlockQuote.cshtml" />
+    <Content Include="Views\Core\Layouts\Metronic\Breadcrumb.cshtml" />
+    <Content Include="Views\Core\Components\Portfolio\ClientGallery.cshtml" />
+    <Content Include="Views\Core\Components\Portfolio\Clients.cshtml" />
+    <Content Include="Views\Core\Components\Contact\Contact.cshtml" />
+    <Content Include="Views\Core\Components\Fxm\FxmFeatured.cshtml" />
+    <Content Include="Views\Core\Components\Text\ImportantInfo.cshtml" />
+    <Content Include="Views\Core\Components\Overview\ItemList.cshtml" />
+    <Content Include="Views\Core\Components\Navigation\LeftMenu.cshtml" />
+    <Content Include="Views\Core\Components\Contact\Map.cshtml" />
+    <Content Include="Views\Core\Components\News\NewsItem.cshtml" />
+    <Content Include="Views\Core\Components\News\NewsList.cshtml" />
+    <Content Include="Views\Core\Components\Text\PersonalisedBlockQuote.cshtml" />
+    <Content Include="Views\Core\Components\Images\PhotoStream.cshtml" />
+    <Content Include="Views\Core\Components\Product\ProductGallery.cshtml" />
+    <Content Include="Views\Core\Components\Product\ProductItem.cshtml" />
+    <Content Include="Views\Core\Components\Product\ProductSpot.cshtml" />
+    <Content Include="Views\Core\Components\Profiles\Profiles.cshtml" />
+    <Content Include="Views\Core\Components\Overview\RecentItems.cshtml" />
+    <Content Include="Views\Core\Components\Overview\Selection.cshtml" />
+    <Content Include="Views\Core\Components\Meta\Seo.cshtml" />
+    <Content Include="Views\Core\Components\Snippets\ServiceBox.cshtml" />
+    <Content Include="Views\Core\Components\Images\Slider.cshtml" />
+    <Content Include="Views\Core\Components\Snippets\Steps.cshtml" />
+    <Content Include="Views\Core\Components\Containers\Tabs.cshtml" />
+    <Content Include="Views\Core\Components\Text\Testimonials.cshtml" />
+    <Content Include="Views\Core\Components\Profiles\UserProfiles.cshtml" />
+    <Content Include="Views\Core\Components\Video\VideoBanner2.cshtml" />
+    <Content Include="Views\Core\Components\Video\VideoSidebar.cshtml" />
+    <Content Include="Views\Core\Layouts\Metronic\CssColour.cshtml" />
+    <Content Include="Views\Core\Layouts\Metronic\Footer.cshtml" />
+    <Content Include="Views\Core\Layouts\Metronic\Header.cshtml" />
+    <Content Include="Views\Core\Layouts\Metronic\JavaScript.cshtml" />
+    <Content Include="Views\Core\Layouts\Metronic\Main.cshtml" />
+    <Content Include="Views\Core\Layouts\Metronic\TopBar.cshtml" />
+    <Content Include="Views\Core\Scaffolding\Presets\OneColumnRow.cshtml" />
+    <Content Include="Views\Core\Scaffolding\Presets\TwoColumnRow.cshtml" />
+    <Content Include="Views\Core\Scaffolding\Presets\ThreeColumnRow.cshtml" />
+    <Content Include="Views\Core\System\EndSession.cshtml" />
+    <Content Include="Views\Core\Layouts\Search\Google.cshtml" />
+    <Content Include="Views\Core\Layouts\Search\Google search results.cshtml" />
+    <Content Include="Views\Core\Layouts\Search\Bing.cshtml" />
+    <Content Include="Views\Core\Layouts\Search\Bing search results.cshtml" />
+    <Content Include="Views\Core\Components\Text\Testimonial.cshtml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="packages.spitfire.website.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\jquery-2.1.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Spitfire.Library\Spitfire.Library.csproj">
+      <Project>{3ce5c5a8-c7b1-4d88-b487-6a3bed1891df}</Project>
+      <Name>Spitfire.Library</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Spitfire.SitecoreExtensions\Spitfire.SitecoreExtensions.csproj">
+      <Project>{b535703f-8d07-4f23-a533-2974bb4cc7b1}</Project>
+      <Name>Spitfire.SitecoreExtensions</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <UsingTask TaskName="StyleCopTask" AssemblyFile="$(StyleCopTasksPath)\StyleCop.dll" />
+  <Target Name="StyleCop">
+    <!-- Create a collection of files to scan -->
+    <CreateItem Include="$(SourceFolder)\**\*.cs">
+      <Output TaskParameter="Include" ItemName="StyleCopFiles" />
+    </CreateItem>
+    <StyleCopTask ProjectFullPath="$(MSBuildProjectFile)" SourceFiles="@(StyleCopFiles)" ForceFullAnalysis="true" TreatErrorsAsWarnings="true" OutputFile="StyleCopReport.xml" CacheResults="true" />
+    <!--<Xslt Inputs="StyleCopReport.xml"
+       RootTag="StyleCopViolations"
+       Xsl="tools\StyleCop\StyleCopReport.xsl"
+       Output="StyleCopReport.html" />
+
+    <XmlRead XPath="count(//Violation)" XmlFileName="StyleCopReport.xml">
+      <Output TaskParameter="Value" PropertyName="StyleCopViolations" />
+    </XmlRead>
+
+    <Warning Condition="$(StyleCopViolations) > 0" Text="StyleCop found $(StyleCopViolations) broken rules!" />-->
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>59911</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:59328/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>
