@@ -8,6 +8,23 @@
     public static class TemplateIds
     {
         /// <summary>
+        /// Prudential specific template ids
+        /// </summary>
+        public static class Prudential
+        {
+            /// <summary>
+            /// Gets the ID of the news template
+            /// </summary>
+            public static ID NewsTemplate
+            {
+                get
+                {
+                    return new ID("{2F75C8AF-35FC-4A88-B585-7595203F442C}");
+                }
+            }
+        }
+
+        /// <summary>
         /// Gets the id of the NavBar template
         /// </summary>
         public static ID NavBar

@@ -8,6 +8,23 @@
     public static class ItemConstants
     {
         /// <summary>
+        /// Prudential specific item constants
+        /// </summary>
+        public static class Prudential
+        {
+            /// <summary>
+            /// Gets the ID for the News item
+            /// </summary>
+            public static ID NewsRoot
+            {
+                get
+                {
+                    return new ID("{7E73DB7F-2736-492F-B819-9CD14A17098A}");
+                }
+            }
+        }
+
+        /// <summary>
         /// Gets the root for the Home settings root item
         /// </summary>
         public static ID SettingsRoot

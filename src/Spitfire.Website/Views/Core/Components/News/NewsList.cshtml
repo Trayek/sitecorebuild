@@ -1,67 +1,46 @@
 ﻿@using Sitecore.Data.Items
 @using Sitecore.Mvc
 @using Sitecore.Mvc.Presentation
-@using Spitfire.SitecoreExtensions.Extensions
+@using Spitfire.Library.Constants
 @model RenderingModel
 @{
-    var itemIdx = 0;
-}
-@foreach (Item item in Model.Item.Children.OrderByDescending(x => x["date"]))
-{
-    var isEven = itemIdx++ % 2 == 0;
+    var news = Sitecore.Context.Database.GetItem(ItemConstants.Prudential.NewsRoot);
 
-    <div class="row">
-        @if (isEven)
-        {
-            <div class="col-md-8 col-sm-8">
-                <h2>
-                    <a href="@item.Url()">@Html.Sitecore().Field("title", item)</a>
-                </h2>
-                <ul class="blog-info">
-                    <li><i class="fa fa-calendar"></i>&#160;@Html.Sitecore().Field("date", item, new { format = "MMMM dd, yyyy" })</li>
-                    <li><i class="fa fa-comments"></i> 17</li>
+    if (news != null)
+    {
+        <div id="block-views-news-listing-block-1" class="block block-views">
 
-                </ul>
-                <p>
-                    @Html.Sitecore().Field("summary", item)
-                </p>
-                <a href="@item.Url()" class="more">Read more <i class="icon-angle-right"></i></a>
-            </div>
-        }
+            <h2 class="block-title"><span>Prudential Bluesfest News</span></h2>
 
-        <div class="col-md-4 col-sm-4">
-            <!-- BEGIN CAROUSEL -->
-            <div class="front-carousel">
-                <div class="carousel slide" id="myCarousel">
-                    <!-- Carousel items -->
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            @Html.Sitecore().Field("Image", item, new { mw = 260, mh = 201, @as = 1 })
+            @foreach (Item item in news.Axes.GetDescendants().Where(x => x.TemplateID == TemplateIds.Prudential.NewsTemplate).OrderByDescending(x => x["date"]))
+            {
+                <div class="content">
+                    <div class="view view-news-listing view-id-news_listing view-display-id-block_1 view-dom-id-09de5af07726a2323d6cd7a7dab31605 jquery-once-1-processed">
+                        <div class="view-content">
+                            <div class="views-row views-row-1 views-row-odd views-row-first">
+                                <div class="views-field views-field-field-summary">
+                                    <div class="field-content">
+                                        <a href="https://www.prudentialbluesfest.co.uk/news/tom-jones-and-van-morrison-team-prudential-bluesfest">
+                                            Three-day festival announces a unique, one-off double bill featuring two of music’s most iconic figures and...
+                                        </a>
+                                    </div>  
+                                </div>
+                                <div class="views-field views-field-nothing">
+                                    <span class="field-content">
+                                        <a href="https://www.prudentialbluesfest.co.uk/news/tom-jones-and-van-morrison-team-prudential-bluesfest" class="news-arrow">
+                                            <span>Read full story</span>
+                                        </a>
+                                    </span>  
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="view-footer">
+                            <p><a href="/news" class="btn btn-blue"><span>All News</span></a></p>
                         </div>
                     </div>
-
                 </div>
-            </div>
-            <!-- END CAROUSEL -->
+            }
         </div>
-
-        @if (!isEven)
-        {
-            <div class="col-md-8 col-sm-8">
-                <h2>
-                    <a href="@item.Url()">@Html.Sitecore().Field("title", item)</a>
-                </h2>
-                <ul class="blog-info">
-                    <li><i class="fa fa-calendar"></i>&#160;@Html.Sitecore().Field("date", item, new { format = "MMMM dd, yyyy" })</li>
-                    <li><i class="fa fa-comments"></i> 17</li>
-
-                </ul>
-                <p>
-                    @Html.Sitecore().Field("summary", item)
-                </p>
-                <a href="@item.Url()" class="more">Read more <i class="icon-angle-right"></i></a>
-            </div>
-        }
-    </div>
-    <hr class="blog-post-sep" />
+    }
 }
