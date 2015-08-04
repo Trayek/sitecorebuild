@@ -1,0 +1,133 @@
+----item----
+version: 1
+id: {3234077D-6C19-448A-9086-CC88E935A23D}
+database: master
+path: /sitecore/content/Prudential/Home/News/2015/08/04/08/18/first headliners confirmed for bluesfest 2015
+parent: {25AA0039-932F-4EF4-B624-F46DA5876819}
+name: first headliners confirmed for bluesfest 2015
+master: {00000000-0000-0000-0000-000000000000}
+template: {2F75C8AF-35FC-4A88-B585-7595203F442C}
+templatekey: News Article
+
+----field----
+field: {148746F5-2342-4547-ACAC-A9065F6B7ED5}
+name: Date
+key: date
+content-length: 9
+
+20150804Z
+----field----
+field: {5585A30D-B115-4753-93CE-422C3455DEB2}
+name: ShowInNavigation
+key: showinnavigation
+content-length: 0
+
+
+----field----
+field: {A1816D65-769A-4B09-89F6-B20665024CBF}
+name: ShowInSideNavigation
+key: showinsidenavigation
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: d1fcf404-2e29-4da4-9146-d6fbd00895c7
+
+----field----
+field: {CA0479CE-0BFE-4522-83DE-BA688B380A78}
+name: BrowserTitle
+key: browsertitle
+content-length: 68
+
+First Headliners Confirmed For BluesFest 2015 | Prudential BluesFest
+----field----
+field: {AC3FD4DB-8266-476D-9635-67814D91E901}
+name: Summary
+key: summary
+content-length: 350
+
+FOLLOWING THE RUNAWAY SUCCESS OF LAST YEAR&rsquo;S BLUESFEST, WHICH SAW IN EXCESS OF 30,000 MUSIC FANS DESCEND ON THE ROYAL ALBERT HALL FOR AN ACCLAIMED, SIX-DAY CELEBRATION OF BLUES, JAZZ, ROOTS AND SOUL, LIVE NATION HAVE ANNOUNCED A THREE YEAR DEAL THAT WILL SEE THE FESTIVAL RETURN IN NOVEMBER AT A NEW LONDON HOME - THE O2 IN NORTH GREENWICH.<br>
+----field----
+field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
+name: Body
+key: body
+content-length: 2063
+
+<p>Adopting a similar format to that used for this year&rsquo;s event, the festival will incorporate concerts in the Arena, indigo at The O2 and Brooklyn Bowl each evening and the first artists confirmed to perform include Grammy-winning blues-rock group&nbsp;Tedeschi Trucks Band, British blues star&nbsp;Jo Harman, and one of America&rsquo;s best-selling acts of the last ten years, the wildly popular&nbsp;Dave Matthews Band.</p>
+<p>Running across three days from 6th &ndash; 8th November 2015, this will be the first time the world&rsquo;s number one music and entertainment venue has hosted a blues festival and coincides with the fifth anniversary of BluesFest, which has gone from strength to strength since launching in 2011 with concerts at a range of small London venues including the 100 Club, Union Chapel and The Jazz Cafe.</p>
+<p>Festival Director Leo Green:</p>
+<p>&ldquo;This move is a clear statement of ambition from all involved in BluesFest. Having grown exponentially over the last four years, it became clear that it was time to find a new and bigger home to cater to the growing demand for BluesFest. We look forward to bringing some fantastic artists to The O2 in London this autumn and for years to come."</p>
+<p>Rebecca Kane Burton, General Manager of The O2:</p>
+<p>&rdquo;Welcoming BluesFest to The O2 this November is a real honour and we know our guests will love the weekend of unique music programming. We've signed a three year deal with BluesFest ensuring we take Blues music to a bigger audience allowing the event to grow further and featuring a total takeover of the campus which will keep Blues fans entertained&rdquo;.</p>
+<p>Saturday November 7th:</p>
+<ul>
+    <li>Jo Harman (Brooklyn Bowl)</li>
+    <li>Tedeschi Trucks Band (indigo at The O2)</li>
+    <li>Dave Matthews Band (The O2 Arena)</li>
+</ul>
+<p>BluesFest 2015 takes place at The O2 from November 6th &ndash; 8th. Tickets are available now from<a href="http://www.livenation.co.uk/">&nbsp;www.livenation.co.uk</a>and&nbsp;<a href="http://axs.com/">AXS.com</a>.</p>
+----field----
+field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{A95F8E5B-BFE1-4E2E-B9AA-DCEBF7AAB9EC}" />
+----field----
+field: {1B483E91-D8C4-4D19-BA03-462074B55936}
+name: ShortTitle
+key: shorttitle
+content-length: 45
+
+First Headliners Confirmed For BluesFest 2015
+----field----
+field: {C30A013F-3CC8-4961-9837-1C483277084A}
+name: Title
+key: title
+content-length: 45
+
+First Headliners Confirmed For BluesFest 2015
+----field----
+field: {BB7A38C0-323C-4F81-8EB9-288ABF7C4638}
+name: SeoMetaDescription
+key: seometadescription
+content-length: 0
+
+
+----field----
+field: {A12D5346-87EE-484D-83C5-F1E8E1B99666}
+name: OpenGraphDescription
+key: opengraphdescription
+content-length: 0
+
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150804T081836Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d1fcf404-2e29-4da4-9146-d6fbd00895c7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150804T082438Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
