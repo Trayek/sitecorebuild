@@ -1,13 +1,138 @@
-﻿@using Spitfire.Library.Constants
+﻿@using Sitecore.Links
+@using Spitfire.Library.Constants
 @using Sitecore.Mvc
 @using Spitfire.SitecoreExtensions.Helpers
 @model Spitfire.Library.Models.Core.Layouts.Vitality.NavBar
 
 <!-- Navigation -->
 <!-- Note: navbar-default and navbar-inverse are both supported with this theme. -->
-@using (Html.BeginEditFrame("/sitecore/content/Finance/Site Settings/Navigation", "/sitecore/content/Applications/WebEdit/Edit Frame Buttons/Spitfire"))
-{
-    <nav>
+<header id="navbar" role="banner" class="navbar container navbar-default">
+    <div class="top-banner">
+        <div class="region region-top-banner">
+            <div id="block-block-19" class="block block-block">
+                <div class="content">
+                    <!-- pos=501 -->
+                    <div id="div-gpt-ad-slot-501">
+                        @{
+                            var header = Sitecore.Context.Database.GetItem("/sitecore/content/Prudential/Site Settings/Header");
+                        }
+                        @Html.Sitecore().Field("Image", header, new { @class = "img-responsive", @style = "margin:auto;width:auto" })
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="head-logo">
+        <div class="region region-logo">
+            <div id="block-views-header-text-block" class="block block-views">
+                <div class="content">
+                    <div class="view view-header-text view-id-header_text view-display-id-block view-dom-id-958da76872e09fabaf6fd2f9f572ae4f">
+                        <div class="view-content">
+                            <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+                                <div class="views-field views-field-field-header-text">        <div class="field-content"></div>  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="block-views-site-logo-block" class="block block-views">
+                <div class="content">
+                    <div class="view view-site-logo view-id-site_logo view-display-id-block view-dom-id-a7de191ff7c52f04ea50bb2ba49c4211">
+                        <div class="view-content">
+                            <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+                                <div class="views-field views-field-nothing-1">        <span class="field-content"><a href="/">@Html.Sitecore().Field("Logo", @Model.NavRoot, new { @class = "img-responsive" })</a></span>  </div>
+                                <div class="views-field views-field-nothing">        <span class="field-content"><a href="/">@Html.Sitecore().Field("Logo", @Model.NavRoot, new { @class = "img-responsive" })</a></span>  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="head-other">
+        <div class="region region-header-right">
+            <div id="block-views-social-links-block" class="block block-views">
+                <div class="content">
+                    <div class="view view-social-links view-id-social_links view-display-id-block view-dom-id-b32cdedba049a51300bbae8e8650fc14">
+                        <div class="view-content">
+                            <div class="views-row views-row-1 views-row-odd views-row-first">
+                                <a href="http://www.facebook.com/BluesfestUK" target="_blank">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                                <span class="sep">/</span>
+                            </div>
+                            <div class="views-row views-row-2 views-row-even">
+                                <a href="http://twitter.com/BluesfestUK" target="_blank">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                                <span class="sep">/</span>
+                            </div>
+                            <div class="views-row views-row-3 views-row-odd">
+                                <a href="http://www.youtube.com/channel/UCByxMxdzrm5MXoNKrwRxWlw" target="_blank">
+                                    <i class="fa fa-youtube-square"></i>
+                                </a>
+                                <span class="sep">/</span>
+                            </div>
+                            <div class="views-row views-row-4 views-row-even views-row-last">
+                                <a href="http://instagram.com/bluesfestuk" target="_blank">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                                <span class="sep">/</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="block-views-header-text-block-1" class="block block-views">
+                <div class="content">
+                    <div class="view view-header-text view-id-header_text view-display-id-block_1 view-dom-id-45c6442230b1d22b30ac7ef47d53d0f7">
+                        <div class="view-content">
+                            <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+                                <div class="views-field views-field-field-header-post-logo">        <div class="field-content">@Model.Text</div>  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="navbar-header">
+            <div class="region region-header-left">
+                <div id="block-block-15" class="block block-block">
+                    <div class="content">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".mobimenu">
+                            <span class="hburg">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </span>
+                        </button>
+                        <div class="mobimenu" id="mobimenu-0"><div class="mobimenu-header"><a class="mobimenu-title" data-title="Menu">Menu</a><button class="mobimenu-close" type="button"><b>Close</b></button><button class="mobimenu-back" type="button" style="display: none;"><b>Back</b></button></div><ul class="mobimenu-root" aria-level="1"><li class="home"><a href="/">Home</a></li><li><a href="/bluesfest-at-the-o2">Prudential BluesFest at The O2</a></li><li><div class="mobimenu-parent"><a href="/partners" id="mobm-0">Community</a><button class="mobimenu-next" type="button" aria-controls="mobm-0m"><b>Next</b></button></div><ul class="mobimenu-submenu" id="mobm-0m" aria-labelledby="mobm-0" aria-level="2"><li><a href="/partners">Partners</a></li><li><a href="/videos">Video Gallery</a></li><li><a href="/news">News</a></li><li><div class="mobimenu-parent"><a href="/community/history/2014" id="mobm-1">History</a><button class="mobimenu-next" type="button" aria-controls="mobm-1m"><b>Next</b></button></div><ul class="mobimenu-submenu" id="mobm-1m" aria-labelledby="mobm-1" aria-level="3"><li><a href="/community/history/2014">2014</a></li><li><a href="/history/2013">2013</a></li></ul></li></ul></li><li><a href="/info">Info</a></li></ul></div>
+                    </div>
+                </div>
+            </div>
+
+            <nav role="navigation">
+                <ul class="menu nav navbar-nav">
+                    @foreach (var item in Model.PrudentialNavItems)
+                    {
+                        <li>
+                            <a class="page-scroll" href="@LinkManager.GetItemUrl(item)">
+                                @{
+                                    @Html.Sitecore().Field("Title", item)
+                                }
+                            </a>
+                        </li>
+                    }
+                    
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+@*<nav>
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -29,12 +154,12 @@
                     <li class="hidden">
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
-                    @foreach (var item in Model.NavItems)
+                    @foreach (var item in Model.PrudentialNavItems)
                     {
                         <li>
-                            <a class="page-scroll" href="#@item[FieldConstants.NavItem.LinkAnchor]">
+                            <a class="page-scroll" href="@LinkManager.GetItemUrl(item)">
                                 @{
-                                    @Html.Sitecore().Field("Link Name", item)
+                                    @Html.Sitecore().Field("Title", item)
                                 }
                             </a>
                         </li>
@@ -44,5 +169,4 @@
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
-    </nav>
-}
+    </nav>*@
