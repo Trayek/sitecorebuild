@@ -20,13 +20,13 @@ content-length: 2
 field: {DEC8D2D5-E3CF-48B6-A653-8E69E2716641}
 name: __Security
 key: __security
-content-length: 340
+content-length: 468
 
-ar|sitecore\hca demo|pe|+workflowCommand:execute|+workflowState:write|+workflowState:delete|pd|+workflowCommand:execute|+workflowState:write|+workflowState:delete|ar|sitecore\Officecore News Editor|pe|+workflowState:delete|+workflowState:write|+workflowCommand:execute|pd|+workflowState:delete|+workflowState:write|+workflowCommand:execute|
+ar|sitecore\Prudential News Editors|pe|+workflowState:write|+workflowState:delete|pd|+workflowState:write|+workflowState:delete|ar|sitecore\Officecore News Editor|pe|+workflowState:delete|+workflowState:write|+workflowCommand:execute|pd|+workflowState:delete|+workflowState:write|+workflowCommand:execute|ar|sitecore\hca demo|pe|+workflowCommand:execute|+workflowState:write|+workflowState:delete|pd|+workflowCommand:execute|+workflowState:write|+workflowState:delete|
 ----version----
 language: en
 version: 1
-revision: 5ff25277-3969-4394-9426-5eee2eafc1af
+revision: c7617b35-c7e7-4131-9de1-007c9c69bc41
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -41,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-5ff25277-3969-4394-9426-5eee2eafc1af
+c7617b35-c7e7-4131-9de1-007c9c69bc41
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 35
+content-length: 16
 
-20150506T085511:635664993119767782Z
+20150804T152758Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

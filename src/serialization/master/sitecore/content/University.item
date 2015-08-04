@@ -16,10 +16,17 @@ key: __sortorder
 content-length: 3
 
 400
+----field----
+field: {DEC8D2D5-E3CF-48B6-A653-8E69E2716641}
+name: __Security
+key: __security
+content-length: 91
+
+ar|sitecore\Prudential Editors|pe|!*|pd|!*|ar|sitecore\Prudential News Editors|pe|!*|pd|!*|
 ----version----
 language: en
 version: 1
-revision: 63b246e8-a55c-4ee7-90da-9d12c946f952
+revision: b92e35a3-93dd-4d1c-a618-5b476d60c106
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -34,14 +41,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-63b246e8-a55c-4ee7-90da-9d12c946f952
+b92e35a3-93dd-4d1c-a618-5b476d60c106
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150715T085213Z
+20150804T123502Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

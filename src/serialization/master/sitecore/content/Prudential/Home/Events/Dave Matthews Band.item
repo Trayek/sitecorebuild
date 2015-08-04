@@ -1,0 +1,93 @@
+----item----
+version: 1
+id: {6B4FDC0E-6CEA-484D-9336-E4EF31C85CE5}
+database: master
+path: /sitecore/content/Prudential/Home/Events/Dave Matthews Band
+parent: {392579BF-1B90-47F5-98A5-9A4502C3AF83}
+name: Dave Matthews Band
+master: {00000000-0000-0000-0000-000000000000}
+template: {740B9A4F-4FEA-47C8-9871-303F03785927}
+templatekey: Event
+
+----field----
+field: {148746F5-2342-4547-ACAC-A9065F6B7ED5}
+name: Date
+key: date
+content-length: 16
+
+20151107T105100Z
+----version----
+language: en
+version: 1
+revision: b2956e02-ad06-4b07-9f1a-bdbb39e70086
+
+----field----
+field: {CA0479CE-0BFE-4522-83DE-BA688B380A78}
+name: BrowserTitle
+key: browsertitle
+content-length: 18
+
+Dave Matthews Band
+----field----
+field: {AC3FD4DB-8266-476D-9635-67814D91E901}
+name: Summary
+key: summary
+content-length: 34
+
+<p>Dve Matthews Band live @ O2</p>
+----field----
+field: {1B483E91-D8C4-4D19-BA03-462074B55936}
+name: ShortTitle
+key: shorttitle
+content-length: 18
+
+Dave Matthews Band
+----field----
+field: {C30A013F-3CC8-4961-9837-1C483277084A}
+name: Title
+key: title
+content-length: 27
+
+Dave Matthews Band LIVE @O2
+----field----
+field: {F55B9D3E-DD53-4CA6-A76C-03D130029CB2}
+name: Price
+key: price
+content-length: 4
+
+£100
+----field----
+field: {11F41661-E5FE-44E7-B8DA-7CFF2D39B4B2}
+name: OpenGraphImage
+key: opengraphimage
+content-length: 58
+
+<image mediaid="{1C4A9961-E914-4DD7-9CFD-7B418A709411}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150804T105144Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b2956e02-ad06-4b07-9f1a-bdbb39e70086
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150804T112614Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

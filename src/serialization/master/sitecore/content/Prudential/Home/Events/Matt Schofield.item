@@ -1,0 +1,86 @@
+----item----
+version: 1
+id: {034F1705-B623-4FDF-B1AD-3445769A43CF}
+database: master
+path: /sitecore/content/Prudential/Home/Events/Matt Schofield
+parent: {392579BF-1B90-47F5-98A5-9A4502C3AF83}
+name: Matt Schofield
+master: {00000000-0000-0000-0000-000000000000}
+template: {740B9A4F-4FEA-47C8-9871-303F03785927}
+templatekey: Event
+
+----field----
+field: {148746F5-2342-4547-ACAC-A9065F6B7ED5}
+name: Date
+key: date
+content-length: 16
+
+20151127T112800Z
+----version----
+language: en
+version: 1
+revision: 379f4ce8-052e-451b-a4dc-8e214df42550
+
+----field----
+field: {AC3FD4DB-8266-476D-9635-67814D91E901}
+name: Summary
+key: summary
+content-length: 30
+
+<p>Matt Schofield Live @O2</p>
+----field----
+field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{D8751639-9C78-4B25-92FE-6B4EF919962D}" />
+----field----
+field: {F55B9D3E-DD53-4CA6-A76C-03D130029CB2}
+name: Price
+key: price
+content-length: 3
+
+£50
+----field----
+field: {BB7A38C0-323C-4F81-8EB9-288ABF7C4638}
+name: SeoMetaDescription
+key: seometadescription
+content-length: 0
+
+
+----field----
+field: {A12D5346-87EE-484D-83C5-F1E8E1B99666}
+name: OpenGraphDescription
+key: opengraphdescription
+content-length: 0
+
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150804T112846Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+379f4ce8-052e-451b-a4dc-8e214df42550
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150804T113026Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

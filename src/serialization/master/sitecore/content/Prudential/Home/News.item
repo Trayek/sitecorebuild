@@ -13,20 +13,27 @@ templatekey: News Folder
 field: {A0CB3965-8884-4C7A-8815-B6B2E5CED162}
 name: __Editors
 key: __editors
-content-length: 38
+content-length: 0
 
-{59F53BBB-D1F5-4E38-8EBA-0D73109BB59B}
+
 ----field----
 field: {D312103C-B36C-4CA5-864A-C85F9ABDA503}
 name: __Is Bucket
 key: __is bucket
 content-length: 1
 
-1
+0
+----field----
+field: {DEC8D2D5-E3CF-48B6-A653-8E69E2716641}
+name: __Security
+key: __security
+content-length: 98
+
+ar|sitecore\Prudential News Editors|pe|+item:create|+item:write|^*|pd|+item:create|+item:write|^*|
 ----version----
 language: en
 version: 1
-revision: a026eaa7-c122-4e62-9b47-d1cafcf7efd1
+revision: 56bddffd-479c-4c21-abee-45d066b7b63c
 
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
@@ -55,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-a026eaa7-c122-4e62-9b47-d1cafcf7efd1
+56bddffd-479c-4c21-abee-45d066b7b63c
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150803T210653Z
+20150804T152529Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

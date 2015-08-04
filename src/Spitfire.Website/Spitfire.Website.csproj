@@ -475,6 +475,7 @@
     <Content Include="Views\Core\Layouts\Search\Bing.cshtml" />
     <Content Include="Views\Core\Layouts\Search\Bing search results.cshtml" />
     <Content Include="Views\Core\Components\Text\Testimonial.cshtml" />
+    <Content Include="Views\Core\Components\Events\EventsList.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

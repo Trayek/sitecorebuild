@@ -1,18 +1,32 @@
 ----item----
 version: 1
-id: {5AB347D9-43E7-47FB-B1D0-1931BEA62FCE}
+id: {634D3437-90F6-4AF2-9C5A-2C66ABFD7036}
 database: master
-path: /sitecore/content/Prudential/Home/News/2015/08/04/09/13
-parent: {B9C487E8-FC19-4334-B80C-70B10B910180}
-name: 13
+path: /sitecore/templates/Spitfire/Core/Pages/Event/Data/Booking link
+parent: {754C28C2-B7AC-4220-B8E5-8B8592E17208}
+name: Booking link
 master: {00000000-0000-0000-0000-000000000000}
-template: {ADB6CA4F-03EF-4F47-B9AC-9CE2BA53FF97}
-templatekey: Bucket
+template: {455A3E98-A627-4B40-8035-E683A0331AC7}
+templatekey: Template field
 
+----field----
+field: {AB162CC0-DC80-4ABF-8871-998EE5D7BA32}
+name: Type
+key: type
+content-length: 12
+
+General Link
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+300
 ----version----
 language: en
 version: 1
-revision: fb5af634-ece9-4d23-b2c5-5c08c48fd0ba
+revision: f9ed2122-384f-49fe-a3b0-ae74f4b48835
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -20,21 +34,21 @@ name: __Created
 key: __created
 content-length: 16
 
-20150804T091309Z
+20150804T125411Z
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-fb5af634-ece9-4d23-b2c5-5c08c48fd0ba
+f9ed2122-384f-49fe-a3b0-ae74f4b48835
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150804T091309Z
+20150804T125415Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

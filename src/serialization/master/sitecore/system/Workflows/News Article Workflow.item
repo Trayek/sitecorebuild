@@ -16,10 +16,17 @@ key: initial state
 content-length: 38
 
 {86907888-1A19-4BF6-96F0-70A962918C1A}
+----field----
+field: {DEC8D2D5-E3CF-48B6-A653-8E69E2716641}
+name: __Security
+key: __security
+content-length: 251
+
+ar|sitecore\Prudential Editors|pe|+workflowState:write|+workflowState:delete|pd|+workflowState:write|+workflowState:delete|ar|sitecore\Prudential News Editors|pe|+workflowState:write|+workflowState:delete|pd|+workflowState:write|+workflowState:delete|
 ----version----
 language: en
 version: 1
-revision: 61960ca3-2019-48cb-ad5e-3645c0e5bbcf
+revision: 3ef29536-1014-4783-abd9-dfed4ac14bda
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -27,28 +34,28 @@ name: __Created
 key: __created
 content-length: 16
 
-20140202T234746Z
+20150730T124750Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
 key: __created by
-content-length: 14
+content-length: 18
 
-sitecore\admin
+extranet\Anonymous
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-61960ca3-2019-48cb-ad5e-3645c0e5bbcf
+3ef29536-1014-4783-abd9-dfed4ac14bda
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 35
+content-length: 16
 
-20150320T104739:635624452596015914Z
+20150804T202139Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

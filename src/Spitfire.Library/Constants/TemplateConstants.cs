@@ -22,6 +22,17 @@
                     return new ID("{2F75C8AF-35FC-4A88-B585-7595203F442C}");
                 }
             }
+
+            /// <summary>
+            /// Gets the ID of the Events template
+            /// </summary>
+            public static ID EventsTemplate
+            {
+                get
+                {
+                    return new ID("{740B9A4F-4FEA-47C8-9871-303F03785927}");
+                }
+            }
         }
 
         /// <summary>

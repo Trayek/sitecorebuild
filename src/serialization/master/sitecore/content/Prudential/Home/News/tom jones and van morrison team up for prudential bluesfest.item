@@ -2,8 +2,8 @@
 version: 1
 id: {F0517BF7-2562-41D3-9790-4629033240F5}
 database: master
-path: /sitecore/content/Prudential/Home/News/2015/08/03/21/01/tom jones and van morrison team up for prudential bluesfest
-parent: {989E4834-F7E8-49C2-B584-C4D090B1D56A}
+path: /sitecore/content/Prudential/Home/News/tom jones and van morrison team up for prudential bluesfest
+parent: {7E73DB7F-2736-492F-B819-9CD14A17098A}
 name: tom jones and van morrison team up for prudential bluesfest
 master: {00000000-0000-0000-0000-000000000000}
 template: {2F75C8AF-35FC-4A88-B585-7595203F442C}
@@ -34,9 +34,9 @@ content-length: 0
 field: {9DAFCA1D-D618-4616-86B8-A8ACD6B28A63}
 name: __Bucket Parent Reference
 key: __bucket parent reference
-content-length: 38
+content-length: 0
 
-{7E73DB7F-2736-492F-B819-9CD14A17098A}
+
 ----field----
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
@@ -47,7 +47,7 @@ content-length: 1010
 ----version----
 language: en
 version: 1
-revision: b7c60a09-49f7-4749-901e-b9d0c5a9161e
+revision: 2f37cd54-4978-4886-b5ec-f362269b8616
 
 ----field----
 field: {CA0479CE-0BFE-4522-83DE-BA688B380A78}
@@ -140,18 +140,18 @@ name: __Revision
 key: __revision
 content-length: 36
 
-b7c60a09-49f7-4749-901e-b9d0c5a9161e
+2f37cd54-4978-4886-b5ec-f362269b8616
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150803T211746Z
+20150804T152319Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
-content-length: 14
+content-length: 18
 
-sitecore\admin
+sitecore\Anonymous

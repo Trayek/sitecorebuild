@@ -2,8 +2,8 @@
 version: 1
 id: {4A122896-5C94-4134-AB4A-95293A9E1B00}
 database: master
-path: /sitecore/content/Prudential/Home/News/2015/08/04/09/13/download five free dave matthews band live tracks
-parent: {5AB347D9-43E7-47FB-B1D0-1931BEA62FCE}
+path: /sitecore/content/Prudential/Home/News/download five free dave matthews band live tracks
+parent: {7E73DB7F-2736-492F-B819-9CD14A17098A}
 name: download five free dave matthews band live tracks
 master: {00000000-0000-0000-0000-000000000000}
 template: {2F75C8AF-35FC-4A88-B585-7595203F442C}

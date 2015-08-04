@@ -2,8 +2,8 @@
 version: 1
 id: {3234077D-6C19-448A-9086-CC88E935A23D}
 database: master
-path: /sitecore/content/Prudential/Home/News/2015/08/04/08/18/first headliners confirmed for bluesfest 2015
-parent: {25AA0039-932F-4EF4-B624-F46DA5876819}
+path: /sitecore/content/Prudential/Home/News/first headliners confirmed for bluesfest 2015
+parent: {7E73DB7F-2736-492F-B819-9CD14A17098A}
 name: first headliners confirmed for bluesfest 2015
 master: {00000000-0000-0000-0000-000000000000}
 template: {2F75C8AF-35FC-4A88-B585-7595203F442C}

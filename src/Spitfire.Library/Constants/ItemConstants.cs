@@ -22,6 +22,17 @@
                     return new ID("{7E73DB7F-2736-492F-B819-9CD14A17098A}");
                 }
             }
+
+            /// <summary>
+            /// Gets the ID for the Events item
+            /// </summary>
+            public static ID EventsRoot
+            {
+                get
+                {
+                    return new ID("{392579BF-1B90-47F5-98A5-9A4502C3AF83}");
+                }
+            }
         }
 
         /// <summary>

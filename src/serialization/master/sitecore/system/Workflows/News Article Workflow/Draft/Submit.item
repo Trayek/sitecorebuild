@@ -27,13 +27,13 @@ Office/32x32/nav_right.png
 field: {DEC8D2D5-E3CF-48B6-A653-8E69E2716641}
 name: __Security
 key: __security
-content-length: 254
+content-length: 382
 
-ar|sitecore\hca demo|pe|+workflowCommand:execute|pd|+workflowCommand:execute|ar|sitecore\Officecore News Editor|pe|+workflowCommand:execute|+workflowState:write|+workflowState:delete|pd|+workflowCommand:execute|+workflowState:write|+workflowState:delete|
+ar|sitecore\Prudential News Editors|pe|+workflowState:write|+workflowState:delete|pd|+workflowState:write|+workflowState:delete|ar|sitecore\Officecore News Editor|pe|+workflowCommand:execute|+workflowState:write|+workflowState:delete|pd|+workflowCommand:execute|+workflowState:write|+workflowState:delete|ar|sitecore\hca demo|pe|+workflowCommand:execute|pd|+workflowCommand:execute|
 ----version----
 language: en
 version: 1
-revision: 954d9e7a-b004-4cbf-9f3e-f9053c9540cd
+revision: 535bb063-1cec-4ca0-b3db-0fea09fecadc
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -48,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-954d9e7a-b004-4cbf-9f3e-f9053c9540cd
+535bb063-1cec-4ca0-b3db-0fea09fecadc
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 35
+content-length: 16
 
-20150506T085520:635664993201693604Z
+20150804T152850Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
