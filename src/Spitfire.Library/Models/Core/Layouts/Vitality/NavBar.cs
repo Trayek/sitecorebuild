@@ -29,6 +29,8 @@
         /// </value>
         public string BackgroundColor { get; private set; }
 
+        public string Text { get; private set; }
+
         /// <summary>
         /// Gets all Navigation items as a list of Sitecore items.
         /// </summary>
@@ -36,7 +38,9 @@
         /// Navigation items
         /// </value>
         public IList<Item> NavItems { get; private set; }
-        
+
+        public IList<Item> PrudentialNavItems { get; private set; }
+
         /// <summary>
         /// Initialize the NavBar Model
         /// </summary>
@@ -52,7 +56,12 @@
             {
                 BackgroundColor = NavRoot[FieldConstants.NavBar.BackgroundColor];
                 NavItems = NavRoot.Children.Where(item => item.TemplateID == TemplateIds.NavItem).ToList();
+                Text = NavRoot["Text"];
             }
+
+            var home = Sitecore.Context.Database.GetItem("/sitecore/content/Prudential/Home");
+
+            PrudentialNavItems = home.Children.Where(item => item.Fields["ShowInNavigation"].Value == "1").ToList();
         }
     }
 }

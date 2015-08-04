@@ -1,18 +1,18 @@
 ----item----
 version: 1
-id: {84F0F47B-39E5-4381-8D23-0A0372E974AE}
+id: {4AAB3AD3-44B2-4361-A401-CE14BB8EA86B}
 database: master
-path: /sitecore/templates/Spitfire/Core/Content/NavBar/Data
-parent: {A12D613D-7E9E-4392-A405-36B8A2CE659F}
-name: Data
+path: /sitecore/media library/Prudential/Images/Headers
+parent: {AC18E32B-DA1F-4787-BAFD-D4FB95B86F70}
+name: Headers
 master: {00000000-0000-0000-0000-000000000000}
-template: {E269FBB5-3750-427A-9149-7AA950B49301}
-templatekey: Template section
+template: {FE5DD826-48C6-436D-B87A-7C4210C7413B}
+templatekey: Media folder
 
 ----version----
 language: en
 version: 1
-revision: ed7401d8-2ca7-4f36-994f-028e79bb6a58
+revision: fa8c0e23-064a-4e31-bca1-125045366b36
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -20,7 +20,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20150515T145112Z
+20150804T122946Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -34,14 +34,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ed7401d8-2ca7-4f36-994f-028e79bb6a58
+fa8c0e23-064a-4e31-bca1-125045366b36
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150804T142812Z
+20150804T122946Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

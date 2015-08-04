@@ -19,7 +19,7 @@ content-length: 38
 ----version----
 language: en
 version: 1
-revision: 95d1d0dd-cbfe-49ed-ba7c-30d85c50be11
+revision: 1ea0b993-a286-49b8-b49e-ed87d8be86d0
 
 ----field----
 field: {4C245976-F742-4291-843F-998DAD47708A}
@@ -35,6 +35,13 @@ key: navbar color
 content-length: 7
 
 #222222
+----field----
+field: {7F6BEBB5-7AC3-4C7C-9ABF-F9EC36F08D78}
+name: Text
+key: text
+content-length: 50
+
+Live music from the world's leading Blues Artists.
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -62,14 +69,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-95d1d0dd-cbfe-49ed-ba7c-30d85c50be11
+1ea0b993-a286-49b8-b49e-ed87d8be86d0
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150803T205043Z
+20150804T142836Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

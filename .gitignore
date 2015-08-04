@@ -14,3 +14,5 @@ lib/Sitecore/*
 lib/System/*
 .sonar
 vars.user.cmd
+src/Spitfire.Website/Web.config
+src/Spitfire.Website/Web.config
