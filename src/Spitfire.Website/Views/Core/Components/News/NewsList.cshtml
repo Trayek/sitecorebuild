@@ -20,8 +20,8 @@
                             <div class="views-row views-row-1 views-row-odd views-row-first">
                                 <div class="views-field views-field-field-summary">
                                     <div class="field-content">
-                                        <a href="https://www.prudentialbluesfest.co.uk/news/tom-jones-and-van-morrison-team-prudential-bluesfest">
-                                            Three-day festival announces a unique, one-off double bill featuring two of music’s most iconic figures and...
+                                        <a href="@Sitecore.Links.LinkManager.GetItemUrl(item)">
+                                            @Html.Sitecore().Field("Title", item)
                                         </a>
                                     </div>  
                                 </div>
@@ -34,13 +34,12 @@
                                 </div>
                             </div>
                         </div>
-
-                        <div class="view-footer">
-                            <p><a href="/news" class="btn btn-blue"><span>All News</span></a></p>
-                        </div>
                     </div>
                 </div>
             }
+            <div class="view-footer">
+                <p><a href="/news" class="btn btn-blue"><span>All News</span></a></p>
+            </div>
         </div>
     }
 }

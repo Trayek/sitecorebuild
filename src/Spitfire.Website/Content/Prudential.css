@@ -11,15 +11,68 @@ h2 {
     margin-bottom: 10px;
 }
 
-h2.block-title {
-    font-size: 40px;
-}
+    h2.block-title {
+        font-size: 40px;
+    }
 
 #block-views-news-listing-block-1 {
     text-align: center;
     text-transform: uppercase;
     background: url(/Content/images/bg-texture.png);
     background-color: #003946;
+}
+
+    #block-views-news-listing-block-1 .views-field-field-summary a {
+        color: #f1ede2;
+        line-height: 1.1em;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    #block-views-news-listing-block-1 .views-field-nothing a {
+        background: url(/Content/images/arrow-point-right.png) no-repeat;
+        width: 40px;
+        height: 20px;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #block-views-news-listing-block-1 .views-field-field-summary a:hover, #block-views-news-listing-block-1 .views-field-field-summary a:focus {
+        color: #e9e2d1;
+        text-decoration: none;
+    }
+
+    #block-views-news-listing-block-1 .views-field-nothing a span {
+        display: none;
+    }
+
+    #block-views-news-listing-block-1 .btn-blue {
+        width: 100%;
+        display: block;
+    }
+
+.btn-blue span {
+    background: url(/Content/images/arrowright-cream.png) no-repeat 100% 35%;
+    background-size: 17px;
+    padding-right: 25px;
+    display: inline-block;
+}
+
+.btn-blue {
+    color: #f1ede2;
+    background-color: #003946;
+    border-color: #003946;
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #f1ede2;
+    box-shadow: none;
+    border: none;
+    text-transform: uppercase;
+    background-image: url(/Content/images/bg-texture.png);
+    line-height: 1;
 }
 
 nav .navbar-brand {
@@ -59,3 +112,27 @@ nav .navbar-brand {
         position: absolute;
         height: 327px;
     }
+
+@media (min-width: 1200px) {
+    .btn-blue {
+        font-size: 33px;
+        padding-top: 20px;
+        padding-bottom: 14px;
+    }
+}
+
+@media (min-width: 992px) {
+    .btn-blue {
+        font-size: 27px;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+}
+
+@media (min-width: 768px) {
+    .btn-blue {
+        font-size: 26px;
+        padding-top: 10px;
+        padding-bottom: 6px;
+    }
+}
