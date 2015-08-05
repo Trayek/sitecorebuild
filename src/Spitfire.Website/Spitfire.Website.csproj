@@ -301,6 +301,7 @@
     <Content Include="Content\plugins\vitality\vitality-red.css" />
     <Content Include="Content\microsoft.css" />
     <Content Include="Content\Prudential.css" />
+    <Content Include="Content\PrudentialC.css" />
     <Content Include="Content\themes\Blue\Blue.css" />
     <Content Include="Content\themes\Blue\header-bg.png" />
     <Content Include="Content\themes\Gold\Gold.css" />
@@ -334,6 +335,7 @@
     <Content Include="App_Config\Include\zSpitfire\FieldFallback.config">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Scripts\app\prudential.js" />
     <Content Include="sitecore modules\shell\Web Forms for Marketers\themes\metronic.css" />
     <Content Include="webedit.css" />
     <Content Include="Content\bootstrap-theme.css.map" />
