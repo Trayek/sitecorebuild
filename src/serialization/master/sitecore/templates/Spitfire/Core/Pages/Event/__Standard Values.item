@@ -9,10 +9,17 @@ master: {00000000-0000-0000-0000-000000000000}
 template: {740B9A4F-4FEA-47C8-9871-303F03785927}
 templatekey: Event
 
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 254
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{A55B28C9-68C8-4194-AF81-A537995FD51B}"><r id="{C16BAC66-05AF-4BFC-8EAB-2893497DEC2E}" ph="content" uid="{CC1B7683-3464-4DBB-9AAD-492A208C507B}" /></d></r>
 ----version----
 language: en
 version: 1
-revision: ff3ddba6-fcc5-4745-971f-9e0c46d69fac
+revision: 991bcbf1-1066-4cbb-9189-0b758d428895
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -27,14 +34,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ff3ddba6-fcc5-4745-971f-9e0c46d69fac
+991bcbf1-1066-4cbb-9189-0b758d428895
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150804T111129Z
+20150805T183137Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

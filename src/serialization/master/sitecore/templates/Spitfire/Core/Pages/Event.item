@@ -30,10 +30,17 @@ key: __icon
 content-length: 25
 
 Office/32x32/baseball.png
+----field----
+field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
+name: __Renderings
+key: __renderings
+content-length: 254
+
+<r xmlns:xsd="http://www.w3.org/2001/XMLSchema" ><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{A55B28C9-68C8-4194-AF81-A537995FD51B}"><r id="{C16BAC66-05AF-4BFC-8EAB-2893497DEC2E}" ph="content" uid="{3C39A4EE-3196-4D49-BD3D-C4E0944E926C}" /></d></r>
 ----version----
 language: en
 version: 1
-revision: 021c73af-463b-44e0-90fe-f6c2b102a016
+revision: 8b1fdd1b-63c7-4ac5-a1cc-784438e18246
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -55,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-021c73af-463b-44e0-90fe-f6c2b102a016
+8b1fdd1b-63c7-4ac5-a1cc-784438e18246
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150804T111134Z
+20150805T183035Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
