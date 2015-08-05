@@ -5989,7 +5989,7 @@ fieldset[disabled] .active.btn-soldout {
     box-shadow: none;
     border: none;
     text-transform: uppercase;
-    background-image: url(https://deqgzr334xsfb.cloudfront.net/sites/all/themes/custom/img/bg-texture.png);
+    background-image: url(/Content/images/bg-texture.png);
     line-height: 1;
 }
 .btn-primary:hover,
@@ -6380,7 +6380,7 @@ table tr.error .error {
 }
 #block-views-tweets-block-1 {
     background-color: #ffffff;
-    background-image: url(https://deqgzr334xsfb.cloudfront.net/sites/all/themes/custom/img/bg-texture.png);
+    background-image: url(/Content/images/bg-texture.png);
 }
 #block-views-tweets-block-1 h2.block-title {
     color: #f58220 !important;
@@ -6464,7 +6464,7 @@ table tr.error .error {
     display: inline-block;
 }
 .view-news-listing.view-display-id-page .view-content {
-    background: url(https://deqgzr334xsfb.cloudfront.net/sites/all/themes/custom/img/bg-texture.png);
+    background: url(/Content/images/bg-texture.png);
     background-color: #e2ded2;
     font-size: 0px;
     letter-spacing: 0px;
@@ -6489,7 +6489,7 @@ table tr.error .error {
     vertical-align: top;
 }
 .view-news-listing.view-display-id-page #block-multiblock-1 {
-    background: url(https://deqgzr334xsfb.cloudfront.net/sites/all/themes/custom/img/bg-texture.png);
+    background: url(/Content/images/bg-texture.png);
     background-color: #e5e4e0;
     display: none;
 }
@@ -6525,7 +6525,7 @@ table tr.error .error {
 }
 .view-news-listing.view-display-id-page .views-exposed-widgets {
     margin-bottom: 0;
-    background: url(https://deqgzr334xsfb.cloudfront.net/sites/all/themes/custom/img/bg-texture.png);
+    background: url(/Content/images/bg-texture.png);
     background-color: #e2ded2;
     padding: 10px 20px;
 }
@@ -6992,7 +6992,7 @@ table tr.error .error {
     background: none;
 }
 .view-videos.view-display-id-page .view-content {
-    background: url(https://deqgzr334xsfb.cloudfront.net/sites/all/themes/custom/img/bg-texture.png);
+    background: url(/Content/images/bg-texture.png);
     background-color: #e2ded2;
     font-size: 0px;
     letter-spacing: 0px;
@@ -7017,7 +7017,7 @@ table tr.error .error {
     vertical-align: top;
 }
 .view-videos.view-display-id-page #block-multiblock-1 {
-    background: url(https://deqgzr334xsfb.cloudfront.net/sites/all/themes/custom/img/bg-texture.png);
+    background: url(/Content/images/bg-texture.png);
     background-color: #e5e4e0;
     display: none;
 }
@@ -7330,7 +7330,7 @@ table tr.error .error {
     color: #f1ede2;
     margin: 0;
     display: block;
-    background: url(https://deqgzr334xsfb.cloudfront.net/sites/all/themes/custom/img/bg-texture.png);
+    background: url(/Content/images/bg-texture.png);
     font-size: 43px;
     padding: 10px 20px;
     padding-bottom: 0;
@@ -7394,7 +7394,7 @@ table tr.error .error {
     padding-left: 0;
     padding-right: 0;
     text-align: center;
-    background: url(https://deqgzr334xsfb.cloudfront.net/sites/all/themes/custom/img/bg-texture.png);
+    background: url(/Content/images/bg-texture.png);
     background-color: #ffffff;
     line-height: 1;
     -moz-box-ordinal-group: 2;
@@ -7847,7 +7847,7 @@ table tr.error .error {
     min-height: 1px;
     padding-left: 0;
     padding-right: 0;
-    background: url(https://deqgzr334xsfb.cloudfront.net/sites/all/themes/custom/img/bg-texture.png);
+    background: url(/Content/images/bg-texture.png);
     background-color: #ffffff;
     line-height: 1;
     text-align: center;
@@ -8840,7 +8840,7 @@ nav {
     text-align: center;
 }
 .region-top-tabs .block-menu-block {
-    background: url(https://deqgzr334xsfb.cloudfront.net/sites/all/themes/custom/img/bg-texture.png);
+    background: url(/Content/images/bg-texture.png);
     background-color: #e2ded2;
     margin-bottom: 20px;
 }
@@ -8949,7 +8949,7 @@ nav {
     padding-left: 0;
     padding-right: 0;
     background-color: #e2ded2;
-    background-image: url(https://deqgzr334xsfb.cloudfront.net/sites/all/themes/custom/img/bg-texture.png);
+    background-image: url(/Content/images/bg-texture.png);
 }
 .right-column {
     min-width: 300px;
@@ -9069,7 +9069,7 @@ nav {
 }
 .not-front .mid {
     background-color: #ffffff;
-    background-image: url(https://deqgzr334xsfb.cloudfront.net/sites/all/themes/custom/img/bg-texture.png);
+    background-image: url(/Content/images/bg-texture.png);
     padding-left: 0;
     padding-right: 0;
 }
@@ -9080,7 +9080,7 @@ nav {
 }
 .not-front .right-column {
     background-color: #e5e4e0;
-    background-image: url(https://deqgzr334xsfb.cloudfront.net/sites/all/themes/custom/img/bg-texture.png);
+    background-image: url(/Content/images/bg-texture.png);
     padding-bottom: 10px;
 }
 .not-front.page-news .right-column {
@@ -9089,7 +9089,7 @@ nav {
 }
 .front .main-container {
     background-color: #e5e4e0;
-    background-image: url(https://deqgzr334xsfb.cloudfront.net/sites/all/themes/custom/img/bg-texture.png);
+    background-image: url(/Content/images/bg-texture.png);
 }
 .not-front .main-container {
     padding-left: 10px;
@@ -9402,7 +9402,7 @@ nav {
 #block-block-28 .just-announced {
     height: 125px;
     background-color: #f58220;
-    background-image: url(https://deqgzr334xsfb.cloudfront.net/sites/all/themes/custom/img/bg-texture.png);
+    background-image: url(/Content/images/bg-texture.png);
     float: left;
     width: 100%;
 }
@@ -9662,7 +9662,7 @@ h2.block-title {
         box-shadow: none;
         border: none;
         text-transform: uppercase;
-        background-image: url(https://deqgzr334xsfb.cloudfront.net/sites/all/themes/custom/img/bg-texture.png);
+        background-image: url(/Content/images/bg-texture.png);
         position: relative;
         line-height: 1;
     }
@@ -9754,7 +9754,7 @@ h2.block-title {
 #block-views-news-listing-block-99 {
     text-align: center;
     text-transform: uppercase;
-    background: url(https://deqgzr334xsfb.cloudfront.net/sites/all/themes/custom/img/bg-texture.png);
+    background: url(/Content/images/bg-texture.png);
     background-color: #003946;
     float: right;
 }
@@ -10620,7 +10620,7 @@ iframe.google-track {
     padding-left: 0;
     padding-right: 0;
     background-color: #e5e4e0;
-    background-image: url(https://deqgzr334xsfb.cloudfront.net/sites/all/themes/custom/img/bg-texture.png);
+    background-image: url(/Content/images/bg-texture.png);
 }
 @media (min-width: 768px) {
     #block-multiblock-2 {
@@ -10683,7 +10683,7 @@ iframe.google-track {
 }
 .node-history-item {
     background-color: #ffffff;
-    background-image: url(https://deqgzr334xsfb.cloudfront.net/sites/all/themes/custom/img/bg-texture.png);
+    background-image: url(/Content/images/bg-texture.png);
     padding-top: 0;
 }
 .node-history-item .col-sm-8 {
@@ -10752,7 +10752,7 @@ iframe.google-track {
 #block-views-exp-news-listing-page,
 #block-multiblock-3 {
     margin-bottom: 0;
-    background: url(https://deqgzr334xsfb.cloudfront.net/sites/all/themes/custom/img/bg-texture.png);
+    background: url(/Content/images/bg-texture.png);
     background-color: #e2ded2;
     padding: 10px 20px;
 }
@@ -10897,7 +10897,7 @@ iframe.google-track {
 .footer {
     position: relative;
     z-index: 2;
-    background-image: url(https://deqgzr334xsfb.cloudfront.net/sites/all/themes/custom/img/bg-texture.png);
+    background-image: url(/Content/images/bg-texture.png);
     background-color: #e5e4e0;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -10988,13 +10988,13 @@ iframe.google-track {
 @media (min-width: 768px) {
     .region-footer #block-views-footer-text-block {
         float: left;
-        width: 33.33333%;
+        /*width: 33.33333%;*/
     }
 }
 @media (min-width: 768px) {
-    .region-footer #block-views-footer-text-block {
+    /*.region-footer #block-views-footer-text-block {
         margin-left: 33.33333%;
-    }
+    }*/
 }
 .region-footer #block-views-footer-text-block .content {
     padding-right: 10px;
@@ -11015,12 +11015,12 @@ iframe.google-track {
 @media (min-width: 768px) {
     .region-footer #block-block-2 {
         float: left;
-        width: 66.66667%;
+        /*width: 66.66667%;*/
     }
 }
 @media (min-width: 768px) {
     .region-footer #block-block-2 {
-        margin-left: 16.66667%;
+        /*margin-left: 16.66667%;*/
     }
 }
 .region-footer #block-block-2 .content {

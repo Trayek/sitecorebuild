@@ -1,56 +1,68 @@
 ﻿@using Spitfire.SitecoreExtensions.Helpers
 @model Spitfire.Library.Models.Core.Layouts.Vitality.Footer
-@using (Html.BeginEditFrame("/sitecore/content/Global/Footers/DefaultFooter", "/sitecore/content/Applications/WebEdit/Edit Frame Buttons/Footer"))
-{
-    <footer class="footer" style="background-image: url('@Model.BackgroundImageUrl'); height: @Model.FooterHeight">
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-md-4 contact-details">
-                    <h4>
-                        @*<i class="fa fa-phone"></i>*@
-                        @Html.Sitecore().Field("Title1Icon", @Model.Item, new { mw = 20, mh = 20 })
-                        @Html.Sitecore().Field("Title1", @Model.Item)
-                    </h4>
-                    <p>@Html.Sitecore().Field("Title1Info", @Model.Item)</p>
-                </div>
-                <div class="col-md-4 contact-details">
-                    <h4>
-                        @*<i class="fa fa-map-marker"></i>*@
-                        @Html.Sitecore().Field("Title2Icon", @Model.Item, new { mw = 20, mh = 20 })
-                        @Html.Sitecore().Field("Title2", @Model.Item)
-                    </h4>
-                    <p>@Html.Sitecore().Field("Title2Info", @Model.Item)</p>
-                </div>
-                <div class="col-md-4 contact-details">
-                    <h4>
-                        @*<i class="fa fa-envelope"></i>*@
-                        @Html.Sitecore().Field("Title3Icon", @Model.Item, new { mw = 20, mh = 20 })
-                        @Html.Sitecore().Field("Title3", @Model.Item)</h4>
-                    <p>@Html.Sitecore().Field("Title3Info", @Model.Item)</p>
-                </div>
-            </div>
 
-            @Html.Sitecore().Placeholder("col")
-            @*<div class="row social">
-            <div class="col-lg-12">
-                <ul class="list-inline">
-                    <li>
-                        <a href="#"><i class="fa fa-facebook fa-fw fa-2x"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-twitter fa-fw fa-2x"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-linkedin fa-fw fa-2x"></i></a>
-                    </li>
-                </ul>
+@{
+    var footer = Sitecore.Context.Database.GetItem("{70C910BB-6B28-450C-BDF0-E59DB0F10E9E}");
+}
+
+<footer class="footer container">
+    <div class="row">
+        <div class="region region-footer">
+            <div id="block-views-social-links-block-1" class="block block-views">
+                <div class="content">
+                    <div class="view view-social-links view-id-social_links view-display-id-block_1 view-dom-id-385e37292e0115e13b5b97c573ff0422">
+                        <div class="view-content">
+                            <div class="views-row views-row-1 views-row-odd views-row-first">
+                                <a href="http://www.facebook.com/BluesfestUK" target="_blank">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                                <span class="sep">/</span>
+                            </div>
+                            <div class="views-row views-row-2 views-row-even">
+                                <a href="http://twitter.com/BluesfestUK" target="_blank">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                                <span class="sep">/</span>
+                            </div>
+                            <div class="views-row views-row-3 views-row-odd">
+                                <a href="http://www.youtube.com/channel/UCByxMxdzrm5MXoNKrwRxWlw" target="_blank">
+                                    <i class="fa fa-youtube-square"></i>
+                                </a>
+                                <span class="sep">/</span>
+                            </div>
+                            <div class="views-row views-row-4 views-row-even views-row-last">
+                                <a href="http://instagram.com/bluesfestuk" target="_blank">
+                                    <i class="fa fa-instagram"></i>
+                                </a>
+                                <span class="sep">/</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>*@
-            <div class="row copyright">
-                <div class="col-lg-12">
-                    <p class="small">@Html.Sitecore().Field("CopyRight", @Model.Item)</p>
+            <div id="block-menu-block-1" class="block block-menu-block">
+                <div class="content">
+                    <div class="menu-block-wrapper menu-block-1 menu-name-menu-footer-links parent-mlid-0 menu-level-1">
+                        <ul class="leftnav">
+                            <li class="first leaf menu-mlid-577">@Html.Sitecore().Field("Terms Link", footer)</li>
+                            <li class="last leaf menu-mlid-578">@Html.Sitecore().Field("Cookies Link", footer)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="block-views-footer-text-block" class="block block-views">
+                <div class="content">
+                    <div class="view view-footer-text view-id-footer_text view-display-id-block view-dom-id-6c44606747507f7624920b62e2b96b9c">
+                        <div class="view-content">
+                            <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+                                <div class="views-field views-field-field-footer-text">
+                                    <div class="field-content">@Html.Sitecore().Field("Footer Content", footer)</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </footer>
-}
+    </div>
+</footer>

@@ -1,0 +1,82 @@
+----item----
+version: 1
+id: {70C910BB-6B28-450C-BDF0-E59DB0F10E9E}
+database: master
+path: /sitecore/content/Prudential/Site Settings/Footer
+parent: {A39AEC51-6190-4970-B933-9667C120E649}
+name: Footer
+master: {00000000-0000-0000-0000-000000000000}
+template: {675498FB-726B-41BD-BAEC-2DEBE200EF19}
+templatekey: PrudentialFooter
+
+----version----
+language: en
+version: 1
+revision: 86c9dccf-680c-4093-94d4-1037fe8dd236
+
+----field----
+field: {F5D572DE-DCBF-424D-8B64-09962AE9CA2B}
+name: Terms Link
+key: terms link
+content-length: 159
+
+<link text="Terms &amp; Conditions" linktype="internal" class="" title="" target='Active Browser' querystring="" id="{468ECABC-212D-48CC-A407-16A2FE7F315A}" />
+----field----
+field: {9C7B60C9-E9ED-447A-86D5-4B682FFC2367}
+name: Cookies Link
+key: cookies link
+content-length: 158
+
+<link text="Cookies &amp; Privacy" linktype="internal" class="" title="" target='Active Browser' querystring="" id="{468ECABC-212D-48CC-A407-16A2FE7F315A}" />
+----field----
+field: {F7F902D1-C14D-4A4C-985A-2E2A4A9753E1}
+name: Footer Content
+key: footer content
+content-length: 479
+
+<p>The UK's festival of live music from the world's leading blues and blues-inspired artists. New in 2015 at The O2.</p>
+<p>"The "Prudential" name and logo are registered trade marks of Prudential IP Services Limited, a subsidiary of Prudential plc, and are used under license. Prudential plc is not affiliated in any manner with Prudential Financial, Inc, a company whose principal place of business is in the United States of America."</p>
+<br>
+&copy; Prudential BluesFest 2015
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150805T171305Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+86c9dccf-680c-4093-94d4-1037fe8dd236
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150805T171503Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

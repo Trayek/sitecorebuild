@@ -148,6 +148,10 @@ nav .navbar-brand {
     .btn-cream {
         font-size: 33px;
     }
+
+    .container {
+    width: 1200px;
+}
 }
 
 @media (min-width: 992px) {
@@ -156,6 +160,10 @@ nav .navbar-brand {
         padding-top: 15px;
         padding-bottom: 10px;
     }
+
+    .container {
+    width: 100%;
+}
 
     .btn-cream {
         font-size: 27px;
@@ -199,6 +207,10 @@ nav .navbar-brand {
         width: 100%;
         display: inline-block;
     }
+
+    .container {
+    width: 100%;
+}
 
     .btn-orange {
         font-size: 26px;
@@ -529,4 +541,29 @@ a {
     background-size: 17px;
     padding-right: 25px;
     display: inline-block;
+}
+
+.footer {
+    position: relative;
+    z-index: 2;
+    background-image: url(/Content/images/bg-texture.png) !important;
+    background-color: #e5e4e0 !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media (min-width: 1400px) {
+    .container {
+        width: 1200px;
+    }
+}
+
+@media (min-width: 540px) {
+    .container {
+        width: 100%;
+    }
+}
+
+.footer .view-content {
+    color: #003946;
 }
