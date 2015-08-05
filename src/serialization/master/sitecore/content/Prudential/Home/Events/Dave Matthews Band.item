@@ -19,7 +19,7 @@ content-length: 16
 ----version----
 language: en
 version: 1
-revision: b2956e02-ad06-4b07-9f1a-bdbb39e70086
+revision: a4c87a5e-3d9d-4010-9d26-8c631a4a108f
 
 ----field----
 field: {CA0479CE-0BFE-4522-83DE-BA688B380A78}
@@ -35,6 +35,13 @@ key: summary
 content-length: 34
 
 <p>Dve Matthews Band live @ O2</p>
+----field----
+field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{F8F6D701-255C-4EEA-B575-80ECBCF72B44}" />
 ----field----
 field: {1B483E91-D8C4-4D19-BA03-462074B55936}
 name: ShortTitle
@@ -76,14 +83,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-b2956e02-ad06-4b07-9f1a-bdbb39e70086
+a4c87a5e-3d9d-4010-9d26-8c631a4a108f
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150804T112614Z
+20150804T210018Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

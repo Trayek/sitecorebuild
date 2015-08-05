@@ -8,39 +8,47 @@
 
     if (events != null)
     {
-        <div class="view-content">
+        <div id="block-views-gigs-listing-block-1" class="block block-views">
+            <div class="content">
+                <div class="view view-gigs-listing view-id-gigs_listing view-display-id-block_1 view-dom-id-0643f16c55c25c0bb343927e3ce3d0ba">
+                    <div class="view-content">
+                        @foreach (Item item in events.Children.Where(x => x.TemplateID == TemplateIds.Prudential.EventsTemplate).OrderByDescending(x => x["Date"]).Reverse())
+                        {
+                            <div class="views-row views-row-1 views-row-odd views-row-first">
+                                <div class="left">
+                                    <div class="content">
+                                        <div class="venue-name"><div class="field-content"><a href="https://www.prudentialbluesfest.co.uk/bluesfest-at-the-o2/dave-matthews-band-o2">The O2</a></div></div>
+                                        <div class="gig-date"><div class="field-content"><span class="date-display-single">@Html.Sitecore().Field("Date", item, new { format = "dd MMM yyyy" })</span></div></div>
+                                        <div class="headliners">
+                                            <div class="headliner"><a href="/bluesfest-at-the-o2/dave-matthews-band-o2">@Html.Sitecore().Field("Title", item)</a></div>
+                                        </div>
+                                        <div class="support">
+                                            <div class="field-content"></div>
+                                        </div>
+                                        <div class="more-link">
+                                            <a href="/bluesfest-at-the-o2/dave-matthews-band-o2" class="btn btn-orange"><span>More Info</span></a>
+                                            <a href="http://www.ticketmaster.co.uk/bluesfest?brand=uk_bluesfest&amp;camefrom=CFC_UK_LINA_BLUESFEST" class="btn btn-cream visible-xs"><span>Book</span></a>
+                                        </div>
+                                    </div>
+                                </div>
 
-            @foreach (Item item in events.Children.Where(x => x.TemplateID == TemplateIds.Prudential.EventsTemplate).OrderByDescending(x => x["Date"]).Reverse())
-            {
-                <div class="views-row views-row-1 views-row-odd views-row-first">
-                    <div class="left">
-                        <div class="content">
-                            <div class="venue-name"><div class="field-content"><a href="https://www.prudentialbluesfest.co.uk/bluesfest-at-the-o2/dave-matthews-band-o2">The O2</a></div></div>
-                            <div class="gig-date"><div class="field-content"><span class="date-display-single">@Html.Sitecore().Field("date", item, new { format = "dd MMM yyyy" })</span></div></div>
-                            <div class="headliners">
-                                <div class="headliner"><a href="/bluesfest-at-the-o2/dave-matthews-band-o2">@Html.Sitecore().Field("Title", item)</a></div>
+                                <div class="right">
+                                    <div class="content">
+                                        <div class="main-image">
+                                            <a href="/bluesfest-at-the-o2/dave-matthews-band-o2">
+                                                @Html.Sitecore().Field("Image", item, new { w = 476, h = 299 })
+                                            </a>
+                                        </div>
+                                        <div class="book-tickets">
+                                            <a href="http://www.ticketmaster.co.uk/bluesfest?brand=uk_bluesfest&amp;camefrom=CFC_UK_LINA_BLUESFEST" class="btn btn-cream"><span>Book Tickets</span></a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="support">
-                                <div class="field-content"></div>
-                            </div>
-                            <div class="more-link">
-                                <a href="@Sitecore.Links.LinkManager.GetItemUrl(item)" class="btn btn-orange"><span>More Info</span></a>
-                                <a href="http://www.ticketmaster.co.uk/bluesfest?brand=uk_bluesfest&amp;camefrom=CFC_UK_LINA_BLUESFEST" class="btn btn-cream visible-xs"><span>Book</span></a>
-                            </div>
-                        </div>
+                        }
                     </div>
-
-                    <div class="right">
-                        <div class="content">
-                            <div class="main-image"><a href="/bluesfest-at-the-o2/dave-matthews-band-o2"><img src="https://deqgzr334xsfb.cloudfront.net/sites/default/files/styles/gig_featured/public/dmb_0.jpg?itok=5raVFOb-" alt="" class="img-responsive"></a></div>
-                            <div class="book-tickets">
-                                <a href="http://www.ticketmaster.co.uk/bluesfest?brand=uk_bluesfest&amp;camefrom=CFC_UK_LINA_BLUESFEST" class="btn btn-cream"><span>Book Tickets</span></a>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
-            }
+            </div>
         </div>
     }
 }

@@ -20,6 +20,7 @@ h2 {
     text-transform: uppercase;
     background: url(/Content/images/bg-texture.png);
     background-color: #003946;
+    width: 100% !important;
 }
 
     #block-views-news-listing-block-1 .views-field-field-summary a {
@@ -119,6 +120,34 @@ nav .navbar-brand {
         padding-top: 20px;
         padding-bottom: 14px;
     }
+
+    .view-gigs-listing.view-display-id-block_1 .venue-name a, .view-gigs-listing.view-display-id-page_1 .venue-name a, .view-gigs-listing.view-display-id-page .venue-name a {
+        margin-top: 20px;
+        font-size: 24px;
+    }
+
+    .view-gigs-listing.view-display-id-block_1 .gig-date, .view-gigs-listing.view-display-id-page_1 .gig-date, .view-gigs-listing.view-display-id-page .gig-date {
+        padding-bottom: 18px;
+    }
+
+    .view-gigs-listing.view-display-id-block_1 .headliners, .view-gigs-listing.view-display-id-page_1 .headliners, .view-gigs-listing.view-display-id-page .headliners {
+        font-size: 35px;
+    }
+
+    .view-gigs-listing.view-display-id-block_1 .support, .view-gigs-listing.view-display-id-page_1 .support, .view-gigs-listing.view-display-id-page .support {
+        font-size: 24px;
+        padding-top: 15px;
+    }
+
+    .btn-orange {
+        padding-top: 20px;
+        padding-bottom: 14px;
+        font-size: 33px;
+    }
+
+    .btn-cream {
+        font-size: 33px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -127,12 +156,377 @@ nav .navbar-brand {
         padding-top: 15px;
         padding-bottom: 10px;
     }
+
+    .btn-cream {
+        font-size: 27px;
+    }
+
+    .btn-orange {
+        font-size: 27px;
+    }
+
+    #block-views-gigs-listing-block-1 {
+        float: left;
+        width: 100% !important;
+    }
+
+    .view-gigs-listing.view-display-id-block_1 .venue-name a, .view-gigs-listing.view-display-id-page_1 .venue-name a, .view-gigs-listing.view-display-id-page .venue-name a {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    .view-gigs-listing.view-display-id-block_1 .gig-date, .view-gigs-listing.view-display-id-page_1 .gig-date, .view-gigs-listing.view-display-id-page .gig-date {
+        padding-bottom: 14px;
+    }
+
+    .view-gigs-listing.view-display-id-block_1 .headliners, .view-gigs-listing.view-display-id-page_1 .headliners, .view-gigs-listing.view-display-id-page .headliners {
+        font-size: 27px;
+    }
+
+    .view-gigs-listing.view-display-id-block_1 .support, .view-gigs-listing.view-display-id-page_1 .support, .view-gigs-listing.view-display-id-page .support {
+        font-size: 18px;
+        padding-top: 10px;
+    }
+
+    .btn-orange {
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
 }
 
 @media (min-width: 768px) {
+    .view-gigs-listing.view-display-id-block_1 .more-link a, .view-gigs-listing.view-display-id-page_1 .more-link a, .view-gigs-listing.view-display-id-page .more-link a {
+        width: 100%;
+        display: inline-block;
+    }
+
+    .btn-orange {
+        font-size: 26px;
+    }
+
+    .btn-cream {
+        font-size: 26px;
+    }
+
     .btn-blue {
         font-size: 26px;
         padding-top: 10px;
         padding-bottom: 6px;
     }
+
+    .view-gigs-listing.view-display-id-block_1 .support, .view-gigs-listing.view-display-id-page_1 .support, .view-gigs-listing.view-display-id-page .support {
+        font-size: 15px;
+        padding-top: 5px;
+    }
+
+    .view-gigs-listing.view-display-id-block_1 .gig-date, .view-gigs-listing.view-display-id-page_1 .gig-date, .view-gigs-listing.view-display-id-page .gig-date {
+        padding-bottom: 10px;
+    }
+
+    .view-gigs-listing.view-display-id-block_1 .views-row, .view-gigs-listing.view-display-id-page_1 .views-row, .view-gigs-listing.view-display-id-page .views-row {
+        display: table !important;
+        table-layout: fixed;
+    }
+
+    .view-gigs-listing.view-display-id-block_1 .venue-name a, .view-gigs-listing.view-display-id-page_1 .venue-name a, .view-gigs-listing.view-display-id-page .venue-name a {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    #block-views-gigs-listing-block-1 {
+        float: left;
+        width: 100% !important;
+    }
+
+    .view-gigs-listing.view-display-id-block_1 .left, .view-gigs-listing.view-display-id-page_1 .left, .view-gigs-listing.view-display-id-page .left {
+        display: table-cell !important;
+        float: none !important;
+        vertical-align: top;
+        padding-top: 35px;
+        width: 41.6%;
+    }
+
+    .view-gigs-listing.view-display-id-block_1 .left, .view-gigs-listing.view-display-id-page_1 .left, .view-gigs-listing.view-display-id-page .left {
+        display: table-cell !important;
+        float: none !important;
+        vertical-align: top;
+        padding-top: 35px;
+        width: 41.6%;
+    }
+
+    .view-gigs-listing.view-display-id-block_1 .headliners, .view-gigs-listing.view-display-id-page_1 .headliners, .view-gigs-listing.view-display-id-page .headliners {
+        font-size: 18px;
+    }
+
+    .view-gigs-listing.view-display-id-block_1 .more-link, .view-gigs-listing.view-display-id-page_1 .more-link, .view-gigs-listing.view-display-id-page .more-link {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        margin-top: 0;
+    }
+
+        .view-gigs-listing.view-display-id-block_1 .more-link .btn-orange, .view-gigs-listing.view-display-id-page_1 .more-link .btn-orange, .view-gigs-listing.view-display-id-page .more-link .btn-orange {
+            float: none;
+            width: 100%;
+        }
+
+    .view-gigs-listing.view-display-id-block_1 .right, .view-gigs-listing.view-display-id-page_1 .right, .view-gigs-listing.view-display-id-page .right {
+        display: table-cell !important;
+        float: none !important;
+    }
+
+    .view-gigs-listing.view-display-id-block_1 .right, .view-gigs-listing.view-display-id-page_1 .right, .view-gigs-listing.view-display-id-page .right {
+        float: left;
+        width: 58.33333%;
+    }
+
+    .view-gigs-listing.view-display-id-block_1 .book-tickets a, .view-gigs-listing.view-display-id-block_1 .book-tickets button, .view-gigs-listing.view-display-id-page_1 .book-tickets a, .view-gigs-listing.view-display-id-page_1 .book-tickets button, .view-gigs-listing.view-display-id-page .book-tickets a, .view-gigs-listing.view-display-id-page .book-tickets button {
+        display: block;
+    }
+}
+
+#block-views-gigs-listing-block-1 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.text-center {
+    text-align: center;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 0) {
+    .view-gigs-listing.view-display-id-block_1 .view-content, .view-gigs-listing.view-display-id-page_1 .view-content, .view-gigs-listing.view-display-id-page .view-content {
+        width: calc(100% + 2px);
+    }
+}
+
+.view-gigs-listing.view-display-id-block_1 .view-content, .view-gigs-listing.view-display-id-page_1 .view-content, .view-gigs-listing.view-display-id-page .view-content {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: calc(100% + 1px);
+}
+
+#block-views-gigs-listing-block-1 .views-row-1 {
+    clear: both;
+}
+
+.view-gigs-listing.view-display-id-block_1 .views-row {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+}
+
+.view-gigs-listing.view-display-id-block_1 .views-row, .view-gigs-listing.view-display-id-page_1 .views-row, .view-gigs-listing.view-display-id-page .views-row {
+    margin-left: -10px;
+    margin-right: -10px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -moz-box-orient: vertical;
+    -webkit-box-orient: vertical;
+    -ms-box-orient: vertical;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.view-gigs-listing.view-display-id-block_1 .left, .view-gigs-listing.view-display-id-page_1 .left, .view-gigs-listing.view-display-id-page .left {
+    position: relative;
+    min-height: 1px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    background: url(https://deqgzr334xsfb.cloudfront.net/sites/all/themes/custom/img/bg-texture.png);
+    background-color: #ffffff;
+    line-height: 1;
+    -moz-box-ordinal-group: 2;
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 2;
+    -webkit-order: 2;
+    order: 2;
+}
+
+.view-gigs-listing.view-display-id-block_1 .venue-name a, .view-gigs-listing.view-display-id-page_1 .venue-name a, .view-gigs-listing.view-display-id-page .venue-name a {
+    margin-top: 20px;
+    display: block;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+a {
+    color: #f58220;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.view-gigs-listing.view-display-id-block_1 .gig-date, .view-gigs-listing.view-display-id-page_1 .gig-date, .view-gigs-listing.view-display-id-page .gig-date {
+    color: #f58220;
+    padding-bottom: 14px;
+}
+
+.view-gigs-listing.view-display-id-block_1 .headliners, .view-gigs-listing.view-display-id-page_1 .headliners, .view-gigs-listing.view-display-id-page .headliners {
+    text-transform: uppercase;
+    font-size: 35px;
+    line-height: 1;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+    .view-gigs-listing.view-display-id-block_1 .headliners .headliner:first-child, .view-gigs-listing.view-display-id-page_1 .headliners .headliner:first-child, .view-gigs-listing.view-display-id-page .headliners .headliner:first-child {
+        padding-bottom: 5px;
+    }
+
+    .view-gigs-listing.view-display-id-block_1 .headliners a, .view-gigs-listing.view-display-id-page_1 .headliners a, .view-gigs-listing.view-display-id-page .headliners a {
+        color: #003946;
+    }
+
+.view-gigs-listing.view-display-id-block_1 .support, .view-gigs-listing.view-display-id-page_1 .support, .view-gigs-listing.view-display-id-page .support {
+    text-transform: uppercase;
+    color: #f58220;
+    font-size: 24px;
+    padding-top: 15px;
+}
+
+.view-gigs-listing.view-display-id-block_1 .more-link, .view-gigs-listing.view-display-id-page_1 .more-link, .view-gigs-listing.view-display-id-page .more-link {
+    margin-top: 20px;
+}
+
+    .view-gigs-listing.view-display-id-block_1 .more-link .btn-orange, .view-gigs-listing.view-display-id-page_1 .more-link .btn-orange, .view-gigs-listing.view-display-id-page .more-link .btn-orange {
+        position: relative;
+        float: left;
+        width: 50%;
+        min-height: 1px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 20px !important;
+        padding-bottom: 14px !important;
+    }
+
+.btn-orange {
+    color: #003946;
+    background-color: #f58220;
+    border-color: #f58220;
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #f1ede2;
+    box-shadow: none;
+    border: none;
+    text-transform: uppercase;
+    background-image: url(https://deqgzr334xsfb.cloudfront.net/sites/all/themes/custom/img/bg-texture.png);
+    line-height: 1;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 18px;
+    line-height: 1.4;
+    border-radius: 0px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.btn-orange span {
+    background: url(https://deqgzr334xsfb.cloudfront.net/sites/all/themes/custom/img/arrowright-cream.svg) no-repeat 100% 35%;
+    background-size: 17px;
+    padding-right: 25px;
+    display: inline-block;
+}
+
+.view-gigs-listing.view-display-id-block_1 .more-link .btn-cream, .view-gigs-listing.view-display-id-page_1 .more-link .btn-cream, .view-gigs-listing.view-display-id-page .more-link .btn-cream {
+    position: relative;
+    float: left;
+    width: 50%;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px !important;
+    padding-bottom: 14px !important;
+}
+
+.btn-cream span {
+    background: url(https://deqgzr334xsfb.cloudfront.net/sites/all/themes/custom/img/arrowright-blue.svg) no-repeat 100% 35%;
+    background-size: 17px;
+    padding-right: 25px;
+    display: inline-block;
+}
+
+.btn-cream {
+    color: #003946;
+    background-color: #f1ede2;
+    border-color: #f1ede2;
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #003946;
+    box-shadow: none;
+    border: none;
+    text-transform: uppercase;
+    background-image: url(https://deqgzr334xsfb.cloudfront.net/sites/all/themes/custom/img/bg-texture.png);
+    position: relative;
+    line-height: 1;
+    padding-top: 20px !important;
+    padding-bottom: 14px !important;
+}
+
+.view-gigs-listing.view-display-id-block_1 .right, .view-gigs-listing.view-display-id-page_1 .right, .view-gigs-listing.view-display-id-page .right {
+    position: relative;
+    min-height: 1px;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+    vertical-align: top;
+    -moz-box-ordinal-group: 1;
+    -webkit-box-ordinal-group: 1;
+    -ms-flex-order: 1;
+    -webkit-order: 1;
+    order: 1;
+}
+
+    .view-gigs-listing.view-display-id-block_1 .right .main-image img {
+        width: 100%;
+    }
+
+.view-gigs-listing.view-display-id-block_1 .book-tickets a, .view-gigs-listing.view-display-id-page_1 .book-tickets a, .view-gigs-listing.view-display-id-page .book-tickets a {
+    background-color: rgba(241,237,226,0.85);
+}
+
+.view-gigs-listing.view-display-id-block_1 .book-tickets a, .view-gigs-listing.view-display-id-block_1 .book-tickets button, .view-gigs-listing.view-display-id-page_1 .book-tickets a, .view-gigs-listing.view-display-id-page_1 .book-tickets button, .view-gigs-listing.view-display-id-page .book-tickets a, .view-gigs-listing.view-display-id-page .book-tickets button {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: none;
+}
+
+.btn-cream span {
+    background: url(https://deqgzr334xsfb.cloudfront.net/sites/all/themes/custom/img/arrowright-blue.svg) no-repeat 100% 35%;
+    background-size: 17px;
+    padding-right: 25px;
+    display: inline-block;
 }

@@ -19,7 +19,7 @@ content-length: 16
 ----version----
 language: en
 version: 1
-revision: ea82c62f-1bfa-473c-9f7e-bd84e2f27692
+revision: 49219ba2-6767-4de1-bd9e-429a92dfa831
 
 ----field----
 field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
@@ -27,7 +27,7 @@ name: Image
 key: image
 content-length: 58
 
-<image mediaid="{847F6A33-7502-40DE-A2AC-41AAEBF13B26}" />
+<image mediaid="{661AC190-A72D-4D04-AA61-37D34D48E4AB}" />
 ----field----
 field: {F55B9D3E-DD53-4CA6-A76C-03D130029CB2}
 name: Price
@@ -62,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-ea82c62f-1bfa-473c-9f7e-bd84e2f27692
+49219ba2-6767-4de1-bd9e-429a92dfa831
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150804T112826Z
+20150804T210108Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
