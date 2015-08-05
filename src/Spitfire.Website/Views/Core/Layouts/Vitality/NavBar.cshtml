@@ -121,7 +121,7 @@
                          if (item.HasChildren)
                          {
                              <li class="expanded dropdown">
-                                 <a data-target="#" class="dropdown-toggle" data-toggle="dropdown" href="@LinkManager.GetItemUrl(item)">
+                                 <a data-target="#" href="@LinkManager.GetItemUrl(item)">
                                      @{
                                          @Html.Sitecore().Field("Title", item)
                                      }
