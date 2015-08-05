@@ -302,6 +302,7 @@
     <Content Include="Content\microsoft.css" />
     <Content Include="Content\Prudential.css" />
     <Content Include="Content\PrudentialC.css" />
+    <Content Include="Content\StyleSheet1.css" />
     <Content Include="Content\themes\Blue\Blue.css" />
     <Content Include="Content\themes\Blue\header-bg.png" />
     <Content Include="Content\themes\Gold\Gold.css" />
@@ -478,6 +479,7 @@
     <Content Include="Views\Core\Layouts\Search\Bing search results.cshtml" />
     <Content Include="Views\Core\Components\Text\Testimonial.cshtml" />
     <Content Include="Views\Core\Components\Events\EventsList.cshtml" />
+    <Content Include="Views\Core\Components\Events\EventItem.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
