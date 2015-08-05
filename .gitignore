@@ -17,3 +17,4 @@ vars.user.cmd
 src/Spitfire.Website/Web.config
 src/Spitfire.Website/Web.config
 src/Spitfire.Website/Properties/PublishProfiles/Spitfire.pubxml
+src/Spitfire.Website/App_Config/Include/Serialization.config
