@@ -12,7 +12,7 @@
 
             <h2 class="block-title"><span>Prudential Bluesfest News</span></h2>
 
-            @foreach (Item item in news.Axes.GetDescendants().Where(x => x.TemplateID == TemplateIds.Prudential.NewsTemplate).OrderByDescending(x => x["date"]))
+            @foreach (Item item in news.Children.Where(x => x.TemplateID == TemplateIds.Prudential.NewsTemplate).OrderByDescending(x => x["date"]).Take(4))
             {
                 <div class="content">
                     <div class="view view-news-listing view-id-news_listing view-display-id-block_1 view-dom-id-09de5af07726a2323d6cd7a7dab31605 jquery-once-1-processed">

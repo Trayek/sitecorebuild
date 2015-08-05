@@ -12,7 +12,7 @@
             <div class="content">
                 <div class="view view-gigs-listing view-id-gigs_listing view-display-id-block_1 view-dom-id-0643f16c55c25c0bb343927e3ce3d0ba">
                     <div class="view-content">
-                        @foreach (Item item in events.Children.Where(x => x.TemplateID == TemplateIds.Prudential.EventsTemplate).OrderByDescending(x => x["Date"]).Reverse())
+                        @foreach (Item item in events.Children.Where(x => x.TemplateID == TemplateIds.Prudential.EventsTemplate).OrderByDescending(x => x["Date"]).Reverse().Take(3))
                         {
                             <div class="views-row views-row-1 views-row-odd views-row-first">
                                 <div class="left">
