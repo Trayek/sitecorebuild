@@ -33,7 +33,7 @@ content-length: 0
 ----version----
 language: en
 version: 1
-revision: d1fcf404-2e29-4da4-9146-d6fbd00895c7
+revision: 46fa2658-3885-4c81-a0be-8ea9468e7218
 
 ----field----
 field: {CA0479CE-0BFE-4522-83DE-BA688B380A78}
@@ -72,16 +72,16 @@ content-length: 2063
 field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
 name: Image
 key: image
-content-length: 58
+content-length: 65
 
-<image mediaid="{A95F8E5B-BFE1-4E2E-B9AA-DCEBF7AAB9EC}" />
+<image mediaid="{A95F8E5B-BFE1-4E2E-B9AA-DCEBF7AAB9EC}" ></image>
 ----field----
 field: {1B483E91-D8C4-4D19-BA03-462074B55936}
 name: ShortTitle
 key: shorttitle
-content-length: 45
+content-length: 30
 
-First Headliners Confirmed For BluesFest 2015
+BluesFest Headliners Confirmed
 ----field----
 field: {C30A013F-3CC8-4961-9837-1C483277084A}
 name: Title
@@ -116,14 +116,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-d1fcf404-2e29-4da4-9146-d6fbd00895c7
+46fa2658-3885-4c81-a0be-8ea9468e7218
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150804T082438Z
+20150806T092858Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

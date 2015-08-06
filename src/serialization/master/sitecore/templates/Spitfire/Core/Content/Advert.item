@@ -1,18 +1,32 @@
 ----item----
 version: 1
-id: {4AAB3AD3-44B2-4361-A401-CE14BB8EA86B}
+id: {9E8A9351-AA06-4A75-A5E5-8EC280EEDE2C}
 database: master
-path: /sitecore/media library/Prudential/Images/Headers
-parent: {AC18E32B-DA1F-4787-BAFD-D4FB95B86F70}
-name: Headers
+path: /sitecore/templates/Spitfire/Core/Content/Advert
+parent: {8DC7BCEE-FBC6-41A2-BF35-371BCA95F8D0}
+name: Advert
 master: {00000000-0000-0000-0000-000000000000}
-template: {FE5DD826-48C6-436D-B87A-7C4210C7413B}
-templatekey: Media folder
+template: {AB86861A-6030-46C5-B394-E8F99E8B87DB}
+templatekey: Template
 
+----field----
+field: {12C33F3F-86C5-43A5-AEB4-5598CEC45116}
+name: __Base template
+key: __base template
+content-length: 38
+
+{1930BBEB-7805-471A-A3BE-4858AC7CF696}
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 29
+
+Office/32x32/clapperboard.png
 ----version----
 language: en
 version: 1
-revision: fa8c0e23-064a-4e31-bca1-125045366b36
+revision: 41d4d222-8be9-43ae-9bc4-9e389e0ecd4b
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -20,7 +34,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20150804T122946Z
+20150806T085335Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -34,14 +48,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-fa8c0e23-064a-4e31-bca1-125045366b36
+41d4d222-8be9-43ae-9bc4-9e389e0ecd4b
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150804T122946Z
+20150806T085515Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

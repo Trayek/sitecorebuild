@@ -1,0 +1,12 @@
+﻿@model Sitecore.Mvc.Presentation.RenderingModel
+
+<div id="block-block-6" class="block block-block verticaladvert">
+    <div class="content">
+        <!-- pos=502 -->
+        <div id="div-gpt-ad-slot-502">
+            @Html.Sitecore().BeginField("Link", Model.Item)
+            @Html.Sitecore().Field("Image", Model.Item, new { @class = "img-responsive", @style = "margin:auto;width:auto" })
+            @Html.Sitecore().EndField()
+        </div>
+    </div>
+</div>

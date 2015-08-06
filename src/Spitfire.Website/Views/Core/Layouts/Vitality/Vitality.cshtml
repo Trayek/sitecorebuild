@@ -26,6 +26,10 @@
     @Styles.Render("~/finance/css")
     @Styles.Render("~/prudential/css")
     @MyContext.AssetRequirementService.RenderStyles()
+    @Scripts.Render("~/bundles/jquery")
+    <script>
+        var jQuery2 = jQuery.noConflict();
+    </script>
 
     <!-- IE8 support for HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -41,10 +45,7 @@
             <!--Rendering footer-->
             @Html.Sitecore().Rendering("{A857A65A-6526-4613-8E66-E1FC22FCCCD5}", new { DataSource = "{7D421B5F-3EBF-4C88-AC17-D1F49DE75D9E}" })
             <!-- Core Scripts -->
-            @Scripts.Render("~/bundles/jquery")
-            <script>
-                var jQuery2 = jQuery.noConflict();
-            </script>
+            
             @Scripts.Render("~/bundles/bootstrap")
             @Scripts.Render("~/plugins/jquery.easing")
             @Scripts.Render("~/plugins/classie")

@@ -2,8 +2,8 @@
 version: 1
 id: {41DD6465-670C-4CDF-999B-C4AFEF408493}
 database: master
-path: /sitecore/media library/Prudential/Images/Headers/Header
-parent: {4AAB3AD3-44B2-4361-A401-CE14BB8EA86B}
+path: /sitecore/media library/Prudential/Images/Adverts/Header
+parent: {9F88546D-F97F-4D5C-ABBA-EA588B6C0918}
 name: Header
 master: {00000000-0000-0000-0000-000000000000}
 template: {F1828A2C-7E5D-4BBD-98CA-320474871548}

@@ -567,3 +567,25 @@ a {
 .footer .view-content {
     color: #003946;
 }
+
+#block-views-artists-list-homepage-block, #block-block-29 {
+    width: 100% !important;
+}
+
+section {
+    padding-bottom: 0;
+}
+
+.verticaladvert {
+    width: 100% !important;
+    padding: 0 !important;
+    background-color: #e5e4e0;
+}
+
+.col-md-3 .verticaladvert .div-gpt-ad-slot-502 {
+    width: 100% !important;
+}
+
+/*.div-gpt-ad-slot-502 {
+    width: 100% !important;
+}*/

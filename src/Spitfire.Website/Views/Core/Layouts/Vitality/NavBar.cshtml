@@ -1,8 +1,7 @@
 ﻿@using Sitecore.Data.Items
 @using Sitecore.Links
-@using Spitfire.Library.Constants
 @using Sitecore.Mvc
-@using Spitfire.SitecoreExtensions.Helpers
+
 @model Spitfire.Library.Models.Core.Layouts.Vitality.NavBar
 
 <!-- Navigation -->
@@ -14,10 +13,11 @@
                 <div class="content">
                     <!-- pos=501 -->
                     <div id="div-gpt-ad-slot-501">
-                        @{
+                        @*@{
                             var header = Sitecore.Context.Database.GetItem("/sitecore/content/Prudential/Site Settings/Header");
                         }
-                        @Html.Sitecore().Field("Image", header, new { @class = "img-responsive", @style = "margin:auto;width:auto" })
+                        @Html.Sitecore().Field("Image", header, new { @class = "img-responsive", @style = "margin:auto;width:auto" })*@
+                        @Html.Sitecore().Placeholder("bannerad")
                     </div>
                 </div>
             </div>
@@ -131,7 +131,7 @@
                                  <ul class="dropdown-menu">
                                      @foreach (Item child in item.Children)
                                      {
-                                         <li class="leaf"><a href="@LinkManager.GetItemUrl(child)">@Html.Sitecore().Field("Title", child)</a></li>
+                                         <li class="leaf"><a href="@LinkManager.GetItemUrl(child)">@Html.Sitecore().Field("ShortTitle", child)</a></li>
                                      }
                                  </ul>
                              </li>
@@ -152,42 +152,3 @@
         </div>
     </div>
 </header>
-
-@*<nav>
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="/">
-                    @{
-                        @Html.Sitecore().Field("Logo", @Model.NavRoot, new { @class = "img-responsive" })
-                    }
-                </a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a class="page-scroll" href="#page-top"></a>
-                    </li>
-                    @foreach (var item in Model.PrudentialNavItems)
-                    {
-                        <li>
-                            <a class="page-scroll" href="@LinkManager.GetItemUrl(item)">
-                                @{
-                                    @Html.Sitecore().Field("Title", item)
-                                }
-                            </a>
-                        </li>
-                    }
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>*@

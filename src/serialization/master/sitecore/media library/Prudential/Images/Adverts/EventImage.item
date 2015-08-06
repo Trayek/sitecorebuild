@@ -2,8 +2,8 @@
 version: 1
 id: {DA975469-187D-4128-935B-0999EC21BA63}
 database: master
-path: /sitecore/media library/Prudential/Images/Events/EventImage
-parent: {2C0584F9-E6F7-44E3-9C03-8FFEE2D1A49A}
+path: /sitecore/media library/Prudential/Images/Adverts/EventImage
+parent: {9F88546D-F97F-4D5C-ABBA-EA588B6C0918}
 name: EventImage
 master: {00000000-0000-0000-0000-000000000000}
 template: {F1828A2C-7E5D-4BBD-98CA-320474871548}
