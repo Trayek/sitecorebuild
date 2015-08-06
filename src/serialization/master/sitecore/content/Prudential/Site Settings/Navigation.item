@@ -36,13 +36,6 @@ content-length: 7
 
 #222222
 ----field----
-field: {7F6BEBB5-7AC3-4C7C-9ABF-F9EC36F08D78}
-name: Text
-key: text
-content-length: 50
-
-Live music from the world's leading Blues Artists.
-----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
 key: __owner

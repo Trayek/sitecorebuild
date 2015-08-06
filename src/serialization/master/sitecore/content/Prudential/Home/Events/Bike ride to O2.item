@@ -1,0 +1,223 @@
+----item----
+version: 1
+id: {C0AC5EB5-DE9D-497E-86EE-D34E0AD3A7B0}
+database: master
+path: /sitecore/content/Prudential/Home/Events/Bike ride to O2
+parent: {392579BF-1B90-47F5-98A5-9A4502C3AF83}
+name: Bike ride to O2
+master: {00000000-0000-0000-0000-000000000000}
+template: {740B9A4F-4FEA-47C8-9871-303F03785927}
+templatekey: Event
+
+----field----
+field: {148746F5-2342-4547-ACAC-A9065F6B7ED5}
+name: Date
+key: date
+content-length: 16
+
+20151112T101300Z
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{7B0575A7-7211-4248-AF91-4F25AF93D1CB}
+----version----
+language: en
+version: 1
+revision: 33b8a54a-906a-4091-be5b-c7e7e53ba8fc
+
+----field----
+field: {AC3FD4DB-8266-476D-9635-67814D91E901}
+name: Summary
+key: summary
+content-length: 115
+
+<p>A group of mental mad followers of the bands playing will be riding to the O2 arena from Paddington station.</p>
+----field----
+field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
+name: Body
+key: body
+content-length: 760
+
+<p>People will be on bikes and there will be music being played along the way.</p>
+<p><img width="198" height="255" alt="AWESOME NEWS!!!" src="~/media/847f6a33750240dea2ac41aaebf13b26.ashx"></p>
+<p>This man cannot wait for this after hearing the news...</p>
+<p>You can find out the route via the <a title="link opens in a new window" href="https://www.google.co.uk/maps/dir/Paddington+Station,+Praed+St,+London+W2+1RH/The+O2+arena,+London/@51.5086607,-0.169238,12z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x48761ab2af518be7:0xb5624b60849f0408!2m2!1d-0.1771284!2d51.5167117!1m5!1m1!1s0x48760284c6989105:0xf22f0eebe913a0b2!2m2!1d0.0034118!2d51.5024518" target="_blank"><span style="color: rgb(0, 102, 204); text-decoration: underline;">Google Maps link</span></a>.</p>
+----field----
+field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{2B71E302-3EC4-4E12-814D-35C5000C6029}" />
+----field----
+field: {BB7A38C0-323C-4F81-8EB9-288ABF7C4638}
+name: SeoMetaDescription
+key: seometadescription
+content-length: 0
+
+
+----field----
+field: {A12D5346-87EE-484D-83C5-F1E8E1B99666}
+name: OpenGraphDescription
+key: opengraphdescription
+content-length: 0
+
+
+----field----
+field: {11F41661-E5FE-44E7-B8DA-7CFF2D39B4B2}
+name: OpenGraphImage
+key: opengraphimage
+content-length: 0
+
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150805T101326Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 16
+
+sitecore\richard
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+33b8a54a-906a-4091-be5b-c7e7e53ba8fc
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150805T102704Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\richard
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: en
+version: 2
+revision: f0f8c85a-0916-4c76-8e7e-ad866c8bcd9f
+
+----field----
+field: {AC3FD4DB-8266-476D-9635-67814D91E901}
+name: Summary
+key: summary
+content-length: 109
+
+<p>A group of keen followers of the bands playing will be riding to the O2 arena from Paddington station.</p>
+----field----
+field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
+name: Body
+key: body
+content-length: 760
+
+<p>People will be on bikes and there will be music being played along the way.</p>
+<p><img width="198" height="255" alt="AWESOME NEWS!!!" src="~/media/847f6a33750240dea2ac41aaebf13b26.ashx"></p>
+<p>This man cannot wait for this after hearing the news...</p>
+<p>You can find out the route via the <a title="link opens in a new window" href="https://www.google.co.uk/maps/dir/Paddington+Station,+Praed+St,+London+W2+1RH/The+O2+arena,+London/@51.5086607,-0.169238,12z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x48761ab2af518be7:0xb5624b60849f0408!2m2!1d-0.1771284!2d51.5167117!1m5!1m1!1s0x48760284c6989105:0xf22f0eebe913a0b2!2m2!1d0.0034118!2d51.5024518" target="_blank"><span style="color: rgb(0, 102, 204); text-decoration: underline;">Google Maps link</span></a>.</p>
+----field----
+field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{2B71E302-3EC4-4E12-814D-35C5000C6029}" />
+----field----
+field: {BB7A38C0-323C-4F81-8EB9-288ABF7C4638}
+name: SeoMetaDescription
+key: seometadescription
+content-length: 0
+
+
+----field----
+field: {A12D5346-87EE-484D-83C5-F1E8E1B99666}
+name: OpenGraphDescription
+key: opengraphdescription
+content-length: 0
+
+
+----field----
+field: {11F41661-E5FE-44E7-B8DA-7CFF2D39B4B2}
+name: OpenGraphImage
+key: opengraphimage
+content-length: 0
+
+
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20150805T102857Z
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150805T102857Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 16
+
+sitecore\richard
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+f0f8c85a-0916-4c76-8e7e-ad866c8bcd9f
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150805T103017Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\richard
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{86907888-1A19-4BF6-96F0-70A962918C1A}
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 54
+
+<r owner="sitecore\richard" date="20150805T102858Z" />

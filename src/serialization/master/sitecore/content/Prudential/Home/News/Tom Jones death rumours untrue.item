@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {4A122896-5C94-4134-AB4A-95293A9E1B00}
+id: {201FDBBE-AA08-42D1-AE1D-B05CB9D5AB45}
 database: master
-path: /sitecore/content/Prudential/Home/News/download five free dave matthews band live tracks
+path: /sitecore/content/Prudential/Home/News/Tom Jones death rumours untrue
 parent: {7E73DB7F-2736-492F-B819-9CD14A17098A}
-name: download five free dave matthews band live tracks
+name: Tom Jones death rumours untrue
 master: {00000000-0000-0000-0000-000000000000}
 template: {2F75C8AF-35FC-4A88-B585-7595203F442C}
 templatekey: News Article
@@ -15,21 +15,7 @@ name: Date
 key: date
 content-length: 9
 
-20150804Z
-----field----
-field: {5585A30D-B115-4753-93CE-422C3455DEB2}
-name: ShowInNavigation
-key: showinnavigation
-content-length: 0
-
-
-----field----
-field: {A1816D65-769A-4B09-89F6-B20665024CBF}
-name: ShowInSideNavigation
-key: showinsidenavigation
-content-length: 0
-
-
+20150805Z
 ----field----
 field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
 name: __Workflow
@@ -40,160 +26,174 @@ content-length: 38
 ----version----
 language: en
 version: 1
-revision: e0c290a2-98b2-417a-88a1-00caf6baadf4
+revision: 37da698b-32cb-4ef3-a67b-47c5232861e9
 
-----field----
-field: {CA0479CE-0BFE-4522-83DE-BA688B380A78}
-name: BrowserTitle
-key: browsertitle
-content-length: 72
-
-Download five free Dave Matthews band live tracks | Prudential BluesFest
 ----field----
 field: {AC3FD4DB-8266-476D-9635-67814D91E901}
 name: Summary
 key: summary
-content-length: 392
+content-length: 66
 
-BUY YOUR TICKET TO SEE DAVE MATTHEWS BAND AND YOU WILL BE OFFERED A FREE DIGITAL DOWNLOAD TO EXCLUSIVE NEW RECORDINGS FROM DAVE MATTHEWS BAND&rsquo;S 2010 EUROPEAN TOUR INCLUDING FUNNY THE WAY IT IS, CRASH INTO ME, WAREHOUSE, YOU AND ME AND THE STONE. SHARE THE DOWNLOADS WITH YOUR FRIENDS AND BRING THEM TO SEE DMB IN YOUR CITY. THE DOWNLOAD IS AVAILABLE FREE WITH EVERY TICKET PURCHASE.<br>
+Rumours that Tom Jones has died have been denied by his management
 ----field----
 field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
 name: Body
 key: body
-content-length: 95
+content-length: 206
 
-Further information will be provided by your ticket agent once tickets have been purchased.<br>
+We spoke to Tom earlier today who said that rumours of his death have been greatly exaggerated. 'I just had a slight cold' said Tom before shouting his trademark 'Yeah' to prove he was feeling better.&nbsp;
 ----field----
 field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
 name: Image
 key: image
 content-length: 58
 
-<image mediaid="{BBA65036-66D9-49C2-A5A8-50A74FE97D44}" />
+<image mediaid="{89B98A77-88D9-4A6F-9324-F032BD9EEC02}" />
 ----field----
-field: {11F41661-E5FE-44E7-B8DA-7CFF2D39B4B2}
-name: OpenGraphImage
-key: opengraphimage
-content-length: 0
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 307
 
-
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{F875408B-4162-438C-A0CD-80ECB0837230}" p:before="r[@uid='{F3D0BE18-3423-4993-AC66-63AB76B815F3}']" s:id="{56BB4063-7FB2-477C-9F38-DD41912C2EB7}" s:ph="/content/column2_a00e5682-7e52-4319-b0b8-106ac7d566d7" /></d></r>
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20150804T091309Z
+20150805T104208Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 13
+
+sitecore\mark
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-e0c290a2-98b2-417a-88a1-00caf6baadf4
+37da698b-32cb-4ef3-a67b-47c5232861e9
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150804T091611Z
+20150805T105408Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
-content-length: 14
+content-length: 13
 
-sitecore\admin
+sitecore\mark
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{754FE810-5A51-400A-8376-4DFCDDB01F0A}
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
 ----version----
 language: en
 version: 2
-revision: c6b5306b-778a-4862-98e5-795bc863c044
+revision: 05764ae9-9e8b-41a4-85a7-78cbc8b7b58c
 
 ----field----
 field: {CA0479CE-0BFE-4522-83DE-BA688B380A78}
 name: BrowserTitle
 key: browsertitle
-content-length: 72
+content-length: 32
 
-Download five free Dave Matthews band live tracks | Prudential BluesFest
+Tom Jones dies are just a rumour
 ----field----
 field: {AC3FD4DB-8266-476D-9635-67814D91E901}
 name: Summary
 key: summary
-content-length: 386
+content-length: 66
 
-BUY YOUR TICKET TO SEE DAVE MATTHEWS BAND AND YOU WILL BE OFFERED A FREE DIGITAL DOWNLOAD TO EXCLUSIVE NEW RECORDINGS FROM DAVE MATTHEWS BAND’S 2010 EUROPEAN TOUR INCLUDING FUNNY THE WAY IT IS, CRASH INTO ME, WAREHOUSE, YOU AND ME AND THE STONE. SHARE THE DOWNLOADS WITH YOUR FRIENDS AND BRING THEM TO SEE DMB IN YOUR CITY. THE DOWNLOAD IS AVAILABLE FREE WITH EVERY TICKET PURCHASE.<br>
+Rumours that Tom Jones has died have been denied by his management
 ----field----
 field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
 name: Body
 key: body
-content-length: 156
+content-length: 206
 
-Further information will be provided by your ticket agent once tickets have been purchased. Or check Facebook or Twitter for details closer to the time.<br>
+We spoke to Tom earlier today who said that rumours of his death have been greatly exaggerated. 'I just had a slight cold' said Tom before shouting his trademark 'Yeah' to prove he was feeling better.&nbsp;
 ----field----
 field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
 name: Image
 key: image
 content-length: 58
 
-<image mediaid="{BBA65036-66D9-49C2-A5A8-50A74FE97D44}" />
+<image mediaid="{89B98A77-88D9-4A6F-9324-F032BD9EEC02}" />
 ----field----
-field: {11F41661-E5FE-44E7-B8DA-7CFF2D39B4B2}
-name: OpenGraphImage
-key: opengraphimage
-content-length: 0
+field: {0EE2F208-1FEE-42FC-8051-6696D49A92BF}
+name: OpenGraphTitle
+key: opengraphtitle
+content-length: 30
 
-
+Tom Jones death rumours untrue
 ----field----
 field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
 name: __Final Renderings
 key: __final renderings
-content-length: 0
+content-length: 307
 
-
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"><r uid="{F875408B-4162-438C-A0CD-80ECB0837230}" p:before="r[@uid='{F3D0BE18-3423-4993-AC66-63AB76B815F3}']" s:id="{56BB4063-7FB2-477C-9F38-DD41912C2EB7}" s:ph="/content/column2_a00e5682-7e52-4319-b0b8-106ac7d566d7" /></d></r>
 ----field----
 field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
 name: __Valid from
 key: __valid from
 content-length: 16
 
-20150805T103627Z
+20150805T105824Z
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
 key: __created
 content-length: 16
 
-20150805T103627Z
+20150805T105824Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
 key: __created by
-content-length: 16
+content-length: 13
 
-sitecore\richard
+sitecore\mark
 ----field----
 field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
 name: __Revision
 key: __revision
 content-length: 36
 
-c6b5306b-778a-4862-98e5-795bc863c044
+05764ae9-9e8b-41a4-85a7-78cbc8b7b58c
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150805T124521Z
+20150805T111612Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
-content-length: 14
+content-length: 13
 
-sitecore\admin
+sitecore\mark
 ----field----
 field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
 name: __Workflow state
@@ -205,6 +205,6 @@ content-length: 38
 field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
 name: __Lock
 key: __lock
-content-length: 54
+content-length: 5
 
-<r owner="sitecore\richard" date="20150805T103627Z" />
+<r />

@@ -1,0 +1,244 @@
+----item----
+version: 1
+id: {78B6AA61-377B-40F6-8474-F486A2EAB377}
+database: master
+path: /sitecore/content/Prudential/Home/Events/Blues Cafe
+parent: {392579BF-1B90-47F5-98A5-9A4502C3AF83}
+name: Blues Cafe
+master: {00000000-0000-0000-0000-000000000000}
+template: {740B9A4F-4FEA-47C8-9871-303F03785927}
+templatekey: Event
+
+----field----
+field: {148746F5-2342-4547-ACAC-A9065F6B7ED5}
+name: Date
+key: date
+content-length: 16
+
+20151110T101300Z
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{7B0575A7-7211-4248-AF91-4F25AF93D1CB}
+----version----
+language: en
+version: 1
+revision: 33e3f8d6-98eb-42a4-b926-0c6a16e58b9c
+
+----field----
+field: {AC3FD4DB-8266-476D-9635-67814D91E901}
+name: Summary
+key: summary
+content-length: 92
+
+<p>The Blues Caf&eacute; will host some of the greatest young talent from around the UK.</p>
+----field----
+field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
+name: Body
+key: body
+content-length: 181
+
+<p>An opportunity to hear the best new UK blues singers before they become too expensive.</p>
+<p>This will include:</p>
+<ul>
+    <li>Mia McCrone</li>
+    <li></li>
+</ul>
+<p><br></p>
+----field----
+field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
+name: Image
+key: image
+content-length: 163
+
+<image mediaid="{847F6A33-7502-40DE-A2AC-41AAEBF13B26}" alt="Tom being very excited at hearing the young singers" height="515" width="400" hspace="5" vspace="5" />
+----field----
+field: {F55B9D3E-DD53-4CA6-A76C-03D130029CB2}
+name: Price
+key: price
+content-length: 14
+
+£7.00 - £15.00
+----field----
+field: {44559792-40B4-4248-8626-95D3A7201431}
+name: Venue
+key: venue
+content-length: 7
+
+Brixton
+----field----
+field: {634D3437-90F6-4AF2-9C5A-2C66ABFD7036}
+name: Booking link
+key: booking link
+content-length: 114
+
+<link text="" linktype="internal" class="" title=""  querystring="" id="{BD801438-2098-4BA7-A679-37B6919E9FF6}" />
+----field----
+field: {BB7A38C0-323C-4F81-8EB9-288ABF7C4638}
+name: SeoMetaDescription
+key: seometadescription
+content-length: 5
+
+blues
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150805T101328Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 13
+
+sitecore\mark
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+33e3f8d6-98eb-42a4-b926-0c6a16e58b9c
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150805T102711Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 13
+
+sitecore\mark
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />
+----version----
+language: en
+version: 2
+revision: c9c8da7e-4722-4ad1-8d31-5746a4a257aa
+
+----field----
+field: {AC3FD4DB-8266-476D-9635-67814D91E901}
+name: Summary
+key: summary
+content-length: 92
+
+<p>The Blues Caf&eacute; will host some of the greatest young talent from around the UK.</p>
+----field----
+field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
+name: Body
+key: body
+content-length: 224
+
+<p>An opportunity to hear the best new UK blues singers before they become too expensive.</p>
+<p>This will include:</p>
+<ul>
+    <li>Mia McCrone</li>
+    <li>Samantha Davis</li>
+    <li>Frances Sinatra</li>
+</ul>
+<p><br></p>
+----field----
+field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
+name: Image
+key: image
+content-length: 163
+
+<image mediaid="{847F6A33-7502-40DE-A2AC-41AAEBF13B26}" alt="Tom being very excited at hearing the young singers" height="515" width="400" hspace="5" vspace="5" />
+----field----
+field: {F55B9D3E-DD53-4CA6-A76C-03D130029CB2}
+name: Price
+key: price
+content-length: 14
+
+£7.00 - £15.00
+----field----
+field: {44559792-40B4-4248-8626-95D3A7201431}
+name: Venue
+key: venue
+content-length: 7
+
+Brixton
+----field----
+field: {634D3437-90F6-4AF2-9C5A-2C66ABFD7036}
+name: Booking link
+key: booking link
+content-length: 114
+
+<link text="" linktype="internal" class="" title=""  querystring="" id="{BD801438-2098-4BA7-A679-37B6919E9FF6}" />
+----field----
+field: {BB7A38C0-323C-4F81-8EB9-288ABF7C4638}
+name: SeoMetaDescription
+key: seometadescription
+content-length: 5
+
+blues
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20150805T102746Z
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150805T102746Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 13
+
+sitecore\mark
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+c9c8da7e-4722-4ad1-8d31-5746a4a257aa
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150805T103005Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 13
+
+sitecore\mark
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{86907888-1A19-4BF6-96F0-70A962918C1A}
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 51
+
+<r owner="sitecore\mark" date="20150805T102746Z" />

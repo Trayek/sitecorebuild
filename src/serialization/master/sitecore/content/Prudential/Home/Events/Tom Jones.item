@@ -19,15 +19,15 @@ content-length: 16
 ----version----
 language: en
 version: 1
-revision: 987e05dd-1738-46e9-b53a-a03bd57a9bca
+revision: 753e82e9-b8ba-4bb3-8e2c-60621d08de1f
 
 ----field----
 field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
 name: Image
 key: image
-content-length: 65
+content-length: 58
 
-<image mediaid="{661AC190-A72D-4D04-AA61-37D34D48E4AB}" ></image>
+<image mediaid="{661AC190-A72D-4D04-AA61-37D34D48E4AB}" />
 ----field----
 field: {F55B9D3E-DD53-4CA6-A76C-03D130029CB2}
 name: Price
@@ -62,21 +62,21 @@ name: __Revision
 key: __revision
 content-length: 36
 
-987e05dd-1738-46e9-b53a-a03bd57a9bca
+753e82e9-b8ba-4bb3-8e2c-60621d08de1f
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150806T093247Z
+20150805T102404Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
-content-length: 14
+content-length: 13
 
-sitecore\admin
+sitecore\hugh
 ----field----
 field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
 name: __Lock

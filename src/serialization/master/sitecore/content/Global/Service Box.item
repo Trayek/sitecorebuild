@@ -30,10 +30,17 @@ key: __masters
 content-length: 38
 
 {D975A75C-CD7C-4D5C-A14F-B90F36BC4B2E}
+----field----
+field: {DEC8D2D5-E3CF-48B6-A653-8E69E2716641}
+name: __Security
+key: __security
+content-length: 43
+
+ar|sitecore\Prudential Editors|pe|!*|pd|!*|
 ----version----
 language: en
 version: 1
-revision: 75f1bdb5-c474-4717-ab42-37b8bbd76d31
+revision: ee45f9cf-291a-454c-97a6-46b9720907d8
 
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
@@ -55,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-75f1bdb5-c474-4717-ab42-37b8bbd76d31
+ee45f9cf-291a-454c-97a6-46b9720907d8
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
-content-length: 35
+content-length: 16
 
-20150629T102603:635711703637395787Z
+20150806T101027Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

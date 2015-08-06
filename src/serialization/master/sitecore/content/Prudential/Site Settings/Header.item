@@ -12,15 +12,15 @@ templatekey: Banner
 ----version----
 language: en
 version: 1
-revision: 26134a88-f535-4a40-bcd5-32e7a70aa5b0
+revision: a9208329-0386-4c86-847a-de0f1cb964b9
 
 ----field----
 field: {AB3898A6-1F38-42BD-B1BD-80546723BE05}
 name: Image
 key: image
-content-length: 58
+content-length: 0
 
-<image mediaid="{41DD6465-670C-4CDF-999B-C4AFEF408493}" />
+
 ----field----
 field: {25BED78C-4957-4165-998A-CA1B52F67497}
 name: __Created
@@ -34,18 +34,25 @@ name: __Revision
 key: __revision
 content-length: 36
 
-26134a88-f535-4a40-bcd5-32e7a70aa5b0
+a9208329-0386-4c86-847a-de0f1cb964b9
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150804T131218Z
+20150805T110245Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
 key: __updated by
-content-length: 14
+content-length: 16
 
-sitecore\admin
+sitecore\richard
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

@@ -19,7 +19,7 @@ content-length: 16
 ----version----
 language: en
 version: 1
-revision: 34dc6072-5d84-4469-9048-1da5c0cf90b1
+revision: a4c87a5e-3d9d-4010-9d26-8c631a4a108f
 
 ----field----
 field: {CA0479CE-0BFE-4522-83DE-BA688B380A78}
@@ -36,24 +36,12 @@ content-length: 34
 
 <p>Dve Matthews Band live @ O2</p>
 ----field----
-field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
-name: Body
-key: body
-content-length: 3029
-
-<p>Schofield is lauded as the British blues guitarist of current times. Guitarist magazine said, “There isn’t a better British blues guitarist playing currently”. With his first release for Provogue, Schofield finds himself as representative for the long tradition of British Blues on the ultimate blues guitar label, and gaining a home amongst his peers - the world's greatest contemporary blues players. &nbsp;</p>
-<p>The Schofield story is exploding internationally; the world is sitting up and taking note. &nbsp;Back from another well-received US tour, Schofield is expanding his borders. The LA Times stated, “In Schofield, the UK has produced the best blues guitarist from any country in decades. Head and shoulders above the herd.” &nbsp;Vintage Guitar magazine said, “The best of his generation’s European blues players. His feel for the music is incredible. His playing is so interesting that latching onto his records will reward any guitarist.”</p>
-<p>The new collection finds Schofield on stunning form, well able to justify both his fearsome reputation and also the sense of anticipation around this release. Alongside two choice covers from his musical heroes, the album’s nine original tracks showcase his continued growth as an exciting songwriter within the genre, delivered with impassioned vocals to create a diverse and unique take on the blues. “Far As I Can See’” is his fifth studio album. He has also released four live collections, and a guitar instructional DVD for publisher Hal Leonard. The recipient of major awards - British Blues Awards Guitarist of the Year 2010, 2011 &amp; 2012 (making him the first guitarist in the British Blues Awards Hall of Fame), Mojo Magazine Blues Album of the Year 2011 and British Blues Awards Album of the Year 2010 – he imbues this album with stunning musicianship; but never at the expense of heart and soul.&nbsp;</p>
-<p>Matt said, “I had some very distinct goals in mind, and a few definite broader concepts I wanted to explore. However, I also wanted to remain open to where the process might take us, maintaining the excitement that improvising and collaborating with talented musicians allows. The inspiration and goals came from many places - things I felt hadn't fully realized on previous studio records, my influences old and new, including musicians I have wanted to work with for years, and a need to keep growing, pushing myself, and represent where I'm heading now. &nbsp;First and foremost I wanted to go as far as possible to capturing the same connection with the listener that I aim to make at a live show.”</p>
-<p>Matt Schofield was rated in the top ten British blues guitarists of all time by Guitar &amp; Bass Magazine alongside such icons as Eric Clapton and Peter Green. &nbsp;His prowess as a blues guitarist has seen him trade licks with iconic guitarists like Buddy Guy and Robben Ford; and brought him high praise in the ‘Penguin Book of Blues Recordings’ as one of only two living British artists to gain a maximum four-star rating.</p>
-
-----field----
 field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
 name: Image
 key: image
-content-length: 65
+content-length: 58
 
-<image mediaid="{F8F6D701-255C-4EEA-B575-80ECBCF72B44}" ></image>
+<image mediaid="{F8F6D701-255C-4EEA-B575-80ECBCF72B44}" />
 ----field----
 field: {1B483E91-D8C4-4D19-BA03-462074B55936}
 name: ShortTitle
@@ -65,9 +53,9 @@ Dave Matthews Band
 field: {C30A013F-3CC8-4961-9837-1C483277084A}
 name: Title
 key: title
-content-length: 18
+content-length: 27
 
-Dave Matthews Band
+Dave Matthews Band LIVE @O2
 ----field----
 field: {F55B9D3E-DD53-4CA6-A76C-03D130029CB2}
 name: Price
@@ -75,22 +63,6 @@ key: price
 content-length: 4
 
 £100
-----field----
-field: {2222BD78-2B3C-4200-B277-9A2A6744E09F}
-name: EventTime
-key: eventtime
-content-length: 328
-
-<div class="venue-name"><div class="field-content">The O2</div></div>
-<div class="gig-date"><div class="field-content"><span class="date-display-single">7th Nov 2015</span></div></div>
-<div class="doors"><span class="door-label">Doors:</span> <div class="field-content"><span class="date-display-single">19:30</span></div></div>
-----field----
-field: {E430E420-FFF8-4F5B-94F7-765B42C0D0B2}
-name: AdImage
-key: adimage
-content-length: 58
-
-<image mediaid="{DA975469-187D-4128-935B-0999EC21BA63}" />
 ----field----
 field: {11F41661-E5FE-44E7-B8DA-7CFF2D39B4B2}
 name: OpenGraphImage
@@ -111,14 +83,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-34dc6072-5d84-4469-9048-1da5c0cf90b1
+a4c87a5e-3d9d-4010-9d26-8c631a4a108f
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150806T093247Z
+20150804T210018Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -126,10 +98,3 @@ key: __updated by
 content-length: 14
 
 sitecore\admin
-----field----
-field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
-name: __Lock
-key: __lock
-content-length: 5
-
-<r />

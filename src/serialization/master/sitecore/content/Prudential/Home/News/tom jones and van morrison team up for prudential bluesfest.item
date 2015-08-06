@@ -47,7 +47,7 @@ content-length: 1010
 ----version----
 language: en
 version: 1
-revision: 240499c1-40d9-4045-abcf-54853f8c6321
+revision: 2aad0793-a91e-4e0c-83b5-7fc94ea1642a
 
 ----field----
 field: {CA0479CE-0BFE-4522-83DE-BA688B380A78}
@@ -89,9 +89,9 @@ content-length: 65
 field: {1B483E91-D8C4-4D19-BA03-462074B55936}
 name: ShortTitle
 key: shorttitle
-content-length: 48
+content-length: 59
 
-Tom Jones & Van Morrison at Prudential Bluesfest
+Tom Jones and Van Morrison team up for Prudential Bluesfest
 ----field----
 field: {C30A013F-3CC8-4961-9837-1C483277084A}
 name: Title
@@ -140,14 +140,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-240499c1-40d9-4045-abcf-54853f8c6321
+2aad0793-a91e-4e0c-83b5-7fc94ea1642a
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150806T092307Z
+20150805T124436Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

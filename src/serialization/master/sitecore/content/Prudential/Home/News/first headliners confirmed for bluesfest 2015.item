@@ -30,10 +30,17 @@ key: showinsidenavigation
 content-length: 0
 
 
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{7B0575A7-7211-4248-AF91-4F25AF93D1CB}
 ----version----
 language: en
 version: 1
-revision: 46fa2658-3885-4c81-a0be-8ea9468e7218
+revision: d1fcf404-2e29-4da4-9146-d6fbd00895c7
 
 ----field----
 field: {CA0479CE-0BFE-4522-83DE-BA688B380A78}
@@ -72,16 +79,16 @@ content-length: 2063
 field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
 name: Image
 key: image
-content-length: 65
+content-length: 58
 
-<image mediaid="{A95F8E5B-BFE1-4E2E-B9AA-DCEBF7AAB9EC}" ></image>
+<image mediaid="{A95F8E5B-BFE1-4E2E-B9AA-DCEBF7AAB9EC}" />
 ----field----
 field: {1B483E91-D8C4-4D19-BA03-462074B55936}
 name: ShortTitle
 key: shorttitle
-content-length: 30
+content-length: 45
 
-BluesFest Headliners Confirmed
+First Headliners Confirmed For BluesFest 2015
 ----field----
 field: {C30A013F-3CC8-4961-9837-1C483277084A}
 name: Title
@@ -116,14 +123,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-46fa2658-3885-4c81-a0be-8ea9468e7218
+d1fcf404-2e29-4da4-9146-d6fbd00895c7
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150806T092858Z
+20150804T082438Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
@@ -131,3 +138,139 @@ key: __updated by
 content-length: 14
 
 sitecore\admin
+----version----
+language: en
+version: 2
+revision: 5524127d-d3b1-450a-b90d-6f90ad6c7283
+
+----field----
+field: {CA0479CE-0BFE-4522-83DE-BA688B380A78}
+name: BrowserTitle
+key: browsertitle
+content-length: 68
+
+First Headliners Confirmed For BluesFest 2015 | Prudential BluesFest
+----field----
+field: {AC3FD4DB-8266-476D-9635-67814D91E901}
+name: Summary
+key: summary
+content-length: 344
+
+FOLLOWING THE RUNAWAY SUCCESS OF LAST YEAR’S BLUESFEST, WHICH SAW IN EXCESS OF 36,000 MUSIC FANS DESCEND ON THE ROYAL ALBERT HALL FOR AN ACCLAIMED, SIX-DAY CELEBRATION OF BLUES, JAZZ, ROOTS AND SOUL, LIVE NATION HAVE ANNOUNCED A THREE YEAR DEAL THAT WILL SEE THE FESTIVAL RETURN IN NOVEMBER AT A NEW LONDON HOME - THE O2 IN NORTH GREENWICH.<br>
+----field----
+field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
+name: Body
+key: body
+content-length: 2063
+
+<p>Adopting a similar format to that used for this year&rsquo;s event, the festival will incorporate concerts in the Arena, indigo at The O2 and Brooklyn Bowl each evening and the first artists confirmed to perform include Grammy-winning blues-rock group&nbsp;Tedeschi Trucks Band, British blues star&nbsp;Jo Harman, and one of America&rsquo;s best-selling acts of the last ten years, the wildly popular&nbsp;Dave Matthews Band.</p>
+<p>Running across three days from 6th &ndash; 8th November 2015, this will be the first time the world&rsquo;s number one music and entertainment venue has hosted a blues festival and coincides with the fifth anniversary of BluesFest, which has gone from strength to strength since launching in 2011 with concerts at a range of small London venues including the 100 Club, Union Chapel and The Jazz Cafe.</p>
+<p>Festival Director Leo Green:</p>
+<p>&ldquo;This move is a clear statement of ambition from all involved in BluesFest. Having grown exponentially over the last four years, it became clear that it was time to find a new and bigger home to cater to the growing demand for BluesFest. We look forward to bringing some fantastic artists to The O2 in London this autumn and for years to come."</p>
+<p>Rebecca Kane Burton, General Manager of The O2:</p>
+<p>&rdquo;Welcoming BluesFest to The O2 this November is a real honour and we know our guests will love the weekend of unique music programming. We've signed a three year deal with BluesFest ensuring we take Blues music to a bigger audience allowing the event to grow further and featuring a total takeover of the campus which will keep Blues fans entertained&rdquo;.</p>
+<p>Saturday November 7th:</p>
+<ul>
+    <li>Jo Harman (Brooklyn Bowl)</li>
+    <li>Tedeschi Trucks Band (indigo at The O2)</li>
+    <li>Dave Matthews Band (The O2 Arena)</li>
+</ul>
+<p>BluesFest 2015 takes place at The O2 from November 6th &ndash; 8th. Tickets are available now from<a href="http://www.livenation.co.uk/">&nbsp;www.livenation.co.uk</a>and&nbsp;<a href="http://axs.com/">AXS.com</a>.</p>
+----field----
+field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{A95F8E5B-BFE1-4E2E-B9AA-DCEBF7AAB9EC}" />
+----field----
+field: {1B483E91-D8C4-4D19-BA03-462074B55936}
+name: ShortTitle
+key: shorttitle
+content-length: 45
+
+First Headliners Confirmed For BluesFest 2015
+----field----
+field: {C30A013F-3CC8-4961-9837-1C483277084A}
+name: Title
+key: title
+content-length: 45
+
+First Headliners Confirmed For BluesFest 2015
+----field----
+field: {BB7A38C0-323C-4F81-8EB9-288ABF7C4638}
+name: SeoMetaDescription
+key: seometadescription
+content-length: 0
+
+
+----field----
+field: {A12D5346-87EE-484D-83C5-F1E8E1B99666}
+name: OpenGraphDescription
+key: opengraphdescription
+content-length: 0
+
+
+----field----
+field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
+name: __Final Renderings
+key: __final renderings
+content-length: 0
+
+
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20150805T103846Z
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150805T103846Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 17
+
+sitecore\juliette
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5524127d-d3b1-450a-b90d-6f90ad6c7283
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150805T124449Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{86907888-1A19-4BF6-96F0-70A962918C1A}
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 55
+
+<r owner="sitecore\juliette" date="20150805T103846Z" />

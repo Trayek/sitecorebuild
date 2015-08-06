@@ -1,0 +1,96 @@
+----item----
+version: 1
+id: {6DA72FD0-832F-4DA6-B9B3-2A82E4B766FC}
+database: master
+path: /sitecore/content/Prudential/Home/News/Dave Matthews band announces Bluesfest 2015
+parent: {7E73DB7F-2736-492F-B819-9CD14A17098A}
+name: Dave Matthews band announces Bluesfest 2015
+master: {00000000-0000-0000-0000-000000000000}
+template: {2F75C8AF-35FC-4A88-B585-7595203F442C}
+templatekey: News Article
+
+----field----
+field: {148746F5-2342-4547-ACAC-A9065F6B7ED5}
+name: Date
+key: date
+content-length: 9
+
+20150804Z
+----field----
+field: {57C33226-F4DC-4A11-9C4F-0E9C56F88BCD}
+name: ImageGallery
+key: imagegallery
+content-length: 38
+
+{9943A2EB-4A1B-483C-A5ED-7EF7C3E50415}
+----field----
+field: {5585A30D-B115-4753-93CE-422C3455DEB2}
+name: ShowInNavigation
+key: showinnavigation
+content-length: 0
+
+
+----field----
+field: {A1816D65-769A-4B09-89F6-B20665024CBF}
+name: ShowInSideNavigation
+key: showinsidenavigation
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: a40449a1-b595-479f-bb00-40bc77955ba9
+
+----field----
+field: {AC3FD4DB-8266-476D-9635-67814D91E901}
+name: Summary
+key: summary
+content-length: 154
+
+DAVE MATTHEWS BAND WILL RETURN TO EUROPE FOR A RUN OF HIGHLY-ANTICIPATED SHOWS THIS AUTUMN, INCLUDING A ONE-OFF LONDON SHOW AS PART OF BLUESFEST 2015.<br>
+----field----
+field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
+name: Body
+key: body
+content-length: 874
+
+With a career spanning more than 20 years, Dave Matthews Band is one of the most influential bands in rock history. Formed in Charlottesville, Va in 1991, Dave Matthews Band&rsquo;s infectious and distinctive sound garnered lots of early attention and a die-hard loyal fan base, catapulting the band into one of the most successful touring acts of the past two decades.&nbsp;
+<p><br>
+</p>
+<p>Dave Matthews Band has sold a collective 38 million CDs and DVDs combined. The group is currently in the studio with producer Rob Cavallo, working on the follow up to Away From The World, which entered the Billboard 200 at No. 1 in 2012. Dave Matthews Band is the first group in history to have six consecutive studio albums debut atop the chart. The band ranked as the biggest ticket seller worldwide of the past decade and has sold over 19 million tickets since its inception.</p>
+----field----
+field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{9943A2EB-4A1B-483C-A5ED-7EF7C3E50415}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150804T104438Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a40449a1-b595-479f-bb00-40bc77955ba9
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150805T124538Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

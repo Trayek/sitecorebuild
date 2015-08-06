@@ -1,0 +1,224 @@
+----item----
+version: 1
+id: {B8D45C57-73A1-4863-A39F-E93AA3D7A519}
+database: master
+path: /sitecore/content/Prudential/Home/News/Bluesfest Celebrates 5th Anniversary with move to O2
+parent: {7E73DB7F-2736-492F-B819-9CD14A17098A}
+name: Bluesfest Celebrates 5th Anniversary with move to O2
+master: {00000000-0000-0000-0000-000000000000}
+template: {2F75C8AF-35FC-4A88-B585-7595203F442C}
+templatekey: News Article
+
+----field----
+field: {148746F5-2342-4547-ACAC-A9065F6B7ED5}
+name: Date
+key: date
+content-length: 9
+
+20150804Z
+----field----
+field: {57C33226-F4DC-4A11-9C4F-0E9C56F88BCD}
+name: ImageGallery
+key: imagegallery
+content-length: 38
+
+{4260DC6A-FB18-43E0-A6A9-A7E73FA2E890}
+----field----
+field: {5585A30D-B115-4753-93CE-422C3455DEB2}
+name: ShowInNavigation
+key: showinnavigation
+content-length: 0
+
+
+----field----
+field: {A1816D65-769A-4B09-89F6-B20665024CBF}
+name: ShowInSideNavigation
+key: showinsidenavigation
+content-length: 0
+
+
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{7B0575A7-7211-4248-AF91-4F25AF93D1CB}
+----version----
+language: en
+version: 1
+revision: aee98f8c-6803-4938-848c-74eb433bcbb3
+
+----field----
+field: {AC3FD4DB-8266-476D-9635-67814D91E901}
+name: Summary
+key: summary
+content-length: 350
+
+FOLLOWING THE RUNAWAY SUCCESS OF LAST YEAR&rsquo;S BLUESFEST, WHICH SAW IN EXCESS OF 30,000 MUSIC FANS DESCEND ON THE ROYAL ALBERT HALL FOR AN ACCLAIMED, SIX-DAY CELEBRATION OF BLUES, JAZZ, ROOTS AND SOUL, LIVE NATION HAVE ANNOUNCED A THREE YEAR DEAL THAT WILL SEE THE FESTIVAL RETURN IN NOVEMBER AT A NEW LONDON HOME - THE O2 IN NORTH GREENWICH.<br>
+----field----
+field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
+name: Body
+key: body
+content-length: 4310
+
+<p style="box-sizing: border-box; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-bottom: 10px; line-height: 1.3em; letter-spacing: 1px; color: #003946; font-family: alternate-gothic-no-2-d, 'Helvetica Neue', Helvetica, sans-serif; font-size: 18px; background-color: #ffffff;">Adopting a similar format to that used for this year&rsquo;s event, the festival will incorporate a range of daytime activity alongside concerts in the Arena, indigo at The O2 and Brooklyn Bowl each evening.</p>
+<p style="box-sizing: border-box; margin: 0px; padding-bottom: 10px; line-height: 1.3em; letter-spacing: 1px; color: #003946; font-family: alternate-gothic-no-2-d, 'Helvetica Neue', Helvetica, sans-serif; font-size: 18px; background-color: #ffffff;">Running across three days from 6th &ndash; 8th November 2015, this will be the first time the world&rsquo;s number one music and entertainment venue has hosted a blues festival and coincides with the fifth anniversary of BluesFest, which has gone from strength to strength since launching in 2011 with concerts at a range of small London venues including the 100 Club, Union Chapel and The Jazz Cafe.</p>
+<p style="box-sizing: border-box; margin: 0px; padding-bottom: 10px; line-height: 1.3em; letter-spacing: 1px; color: #003946; font-family: alternate-gothic-no-2-d, 'Helvetica Neue', Helvetica, sans-serif; font-size: 18px; background-color: #ffffff;">The first wave of acts will be announced in February but fans can expect the sort of world-class lineup that BluesFest has come to be associated with thanks to shows over the years from the likes of BB King, Van Morrison, Elvis Costello, Robert Plant, Ronnie Wood, Gregory Porter, Tom Jones, Mavis Staples, George Benson, Erykah Badu, Robert Cray, Jamie Cullum, Georgie Fame and Bobby Womack.</p>
+<p style="box-sizing: border-box; margin: 0px; padding-bottom: 10px; line-height: 1.3em; letter-spacing: 1px; color: #003946; font-family: alternate-gothic-no-2-d, 'Helvetica Neue', Helvetica, sans-serif; font-size: 18px; background-color: #ffffff;">Festival Director Leo Green:</p>
+<p style="box-sizing: border-box; margin: 0px; padding-bottom: 10px; line-height: 1.3em; letter-spacing: 1px; color: #003946; font-family: alternate-gothic-no-2-d, 'Helvetica Neue', Helvetica, sans-serif; font-size: 18px; background-color: #ffffff;">&ldquo;This move is a clear statement of ambition from all involved in BluesFest. Having grown exponentially over the last four years, it became clear that it was time to find a new and bigger home to cater to the growing demand for BluesFest. We look forward to bringing some fantastic artists to The O2 in London this autumn and for years to come."</p>
+<p style="box-sizing: border-box; margin: 0px; padding-bottom: 10px; line-height: 1.3em; letter-spacing: 1px; color: #003946; font-family: alternate-gothic-no-2-d, 'Helvetica Neue', Helvetica, sans-serif; font-size: 18px; background-color: #ffffff;">Rebecca Kane Burton, General Manager of The O2:</p>
+<p style="box-sizing: border-box; margin: 0px; padding-bottom: 10px; line-height: 1.3em; letter-spacing: 1px; color: #003946; font-family: alternate-gothic-no-2-d, 'Helvetica Neue', Helvetica, sans-serif; font-size: 18px; background-color: #ffffff;">&rdquo;Welcoming BluesFest to The O2 this November is a real honour and we know our guests will love the weekend of unique music programming. We've signed a three year deal with BluesFest ensuring we take Blues music to a bigger audience allowing the event to grow further and featuring a total takeover of the campus which will keep Blues fans entertained&rdquo;.</p>
+<p style="box-sizing: border-box; margin-top: 0px; margin-right: 0px; margin-left: 0px; padding-bottom: 10px; line-height: 1.3em; letter-spacing: 1px; color: #003946; font-family: alternate-gothic-no-2-d, 'Helvetica Neue', Helvetica, sans-serif; font-size: 18px; background-color: #ffffff;">BluesFest 2015 takes place at The O2 from 6th &ndash; 8th November. Tickets will go on sale in February and will be available from&nbsp;<a href="http://www.livenation.co.uk/" style="box-sizing: border-box; color: #f58220; background: transparent;">www.livenation.co.uk</a>&nbsp;and&nbsp;<a href="http://axs.com/" style="box-sizing: border-box; color: #f58220; background: transparent;">AXS.com</a>.</p>
+----field----
+field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{4260DC6A-FB18-43E0-A6A9-A7E73FA2E890}" />
+----field----
+field: {BB7A38C0-323C-4F81-8EB9-288ABF7C4638}
+name: SeoMetaDescription
+key: seometadescription
+content-length: 0
+
+
+----field----
+field: {A12D5346-87EE-484D-83C5-F1E8E1B99666}
+name: OpenGraphDescription
+key: opengraphdescription
+content-length: 0
+
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150804T104743Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+aee98f8c-6803-4938-848c-74eb433bcbb3
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150805T124552Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 2
+revision: 9299f034-6c08-4157-80dd-2e8329b435a0
+
+----field----
+field: {AC3FD4DB-8266-476D-9635-67814D91E901}
+name: Summary
+key: summary
+content-length: 350
+
+FOLLOWING THE RUNAWAY SUCCESS OF LAST YEAR&rsquo;S BLUESFEST, WHICH SAW IN EXCESS OF 30,000 MUSIC FANS DESCEND ON THE ROYAL ALBERT HALL FOR AN ACCLAIMED, SIX-DAY CELEBRATION OF BLUES, JAZZ, ROOTS AND SOUL, LIVE NATION HAVE ANNOUNCED A THREE YEAR DEAL THAT WILL SEE THE FESTIVAL RETURN IN NOVEMBER AT A NEW LONDON HOME - THE O2 IN NORTH GREENWICH.<br>
+----field----
+field: {D74F396D-5C5E-4916-BD0A-BFD58B6B1967}
+name: Body
+key: body
+content-length: 4310
+
+<p style="box-sizing: border-box; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-bottom: 10px; line-height: 1.3em; letter-spacing: 1px; color: #003946; font-family: alternate-gothic-no-2-d, 'Helvetica Neue', Helvetica, sans-serif; font-size: 18px; background-color: #ffffff;">Adopting a similar format to that used for this year&rsquo;s event, the festival will incorporate a range of daytime activity alongside concerts in the Arena, indigo at The O2 and Brooklyn Bowl each evening.</p>
+<p style="box-sizing: border-box; margin: 0px; padding-bottom: 10px; line-height: 1.3em; letter-spacing: 1px; color: #003946; font-family: alternate-gothic-no-2-d, 'Helvetica Neue', Helvetica, sans-serif; font-size: 18px; background-color: #ffffff;">Running across three days from 6th &ndash; 8th November 2015, this will be the first time the world&rsquo;s number one music and entertainment venue has hosted a blues festival and coincides with the fifth anniversary of BluesFest, which has gone from strength to strength since launching in 2011 with concerts at a range of small London venues including the 100 Club, Union Chapel and The Jazz Cafe.</p>
+<p style="box-sizing: border-box; margin: 0px; padding-bottom: 10px; line-height: 1.3em; letter-spacing: 1px; color: #003946; font-family: alternate-gothic-no-2-d, 'Helvetica Neue', Helvetica, sans-serif; font-size: 18px; background-color: #ffffff;">The first wave of acts will be announced in February but fans can expect the sort of world-class lineup that BluesFest has come to be associated with thanks to shows over the years from the likes of BB King, Van Morrison, Elvis Costello, Robert Plant, Ronnie Wood, Gregory Porter, Tom Jones, Mavis Staples, George Benson, Erykah Badu, Robert Cray, Jamie Cullum, Georgie Fame and Bobby Womack.</p>
+<p style="box-sizing: border-box; margin: 0px; padding-bottom: 10px; line-height: 1.3em; letter-spacing: 1px; color: #003946; font-family: alternate-gothic-no-2-d, 'Helvetica Neue', Helvetica, sans-serif; font-size: 18px; background-color: #ffffff;">Festival Director Leo Green:</p>
+<p style="box-sizing: border-box; margin: 0px; padding-bottom: 10px; line-height: 1.3em; letter-spacing: 1px; color: #003946; font-family: alternate-gothic-no-2-d, 'Helvetica Neue', Helvetica, sans-serif; font-size: 18px; background-color: #ffffff;">&ldquo;This move is a clear statement of ambition from all involved in BluesFest. Having grown exponentially over the last four years, it became clear that it was time to find a new and bigger home to cater to the growing demand for BluesFest. We look forward to bringing some fantastic artists to The O2 in London this autumn and for years to come."</p>
+<p style="box-sizing: border-box; margin: 0px; padding-bottom: 10px; line-height: 1.3em; letter-spacing: 1px; color: #003946; font-family: alternate-gothic-no-2-d, 'Helvetica Neue', Helvetica, sans-serif; font-size: 18px; background-color: #ffffff;">Rebecca Kane Burton, General Manager of The O2:</p>
+<p style="box-sizing: border-box; margin: 0px; padding-bottom: 10px; line-height: 1.3em; letter-spacing: 1px; color: #003946; font-family: alternate-gothic-no-2-d, 'Helvetica Neue', Helvetica, sans-serif; font-size: 18px; background-color: #ffffff;">&rdquo;Welcoming BluesFest to The O2 this November is a real honour and we know our guests will love the weekend of unique music programming. We've signed a three year deal with BluesFest ensuring we take Blues music to a bigger audience allowing the event to grow further and featuring a total takeover of the campus which will keep Blues fans entertained&rdquo;.</p>
+<p style="box-sizing: border-box; margin-top: 0px; margin-right: 0px; margin-left: 0px; padding-bottom: 10px; line-height: 1.3em; letter-spacing: 1px; color: #003946; font-family: alternate-gothic-no-2-d, 'Helvetica Neue', Helvetica, sans-serif; font-size: 18px; background-color: #ffffff;">BluesFest 2015 takes place at The O2 from 6th &ndash; 8th November. Tickets will go on sale in February and will be available from&nbsp;<a href="http://www.livenation.co.uk/" style="box-sizing: border-box; color: #f58220; background: transparent;">www.livenation.co.uk</a>&nbsp;and&nbsp;<a href="http://axs.com/" style="box-sizing: border-box; color: #f58220; background: transparent;">AXS.com</a>.</p>
+----field----
+field: {9492E0BB-9DF9-46E7-8188-EC795C4ADE44}
+name: Image
+key: image
+content-length: 58
+
+<image mediaid="{4260DC6A-FB18-43E0-A6A9-A7E73FA2E890}" />
+----field----
+field: {BB7A38C0-323C-4F81-8EB9-288ABF7C4638}
+name: SeoMetaDescription
+key: seometadescription
+content-length: 0
+
+
+----field----
+field: {A12D5346-87EE-484D-83C5-F1E8E1B99666}
+name: OpenGraphDescription
+key: opengraphdescription
+content-length: 0
+
+
+----field----
+field: {C8F93AFE-BFD4-4E8F-9C61-152559854661}
+name: __Valid from
+key: __valid from
+content-length: 16
+
+20150806T102905Z
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150806T102905Z
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 16
+
+sitecore\Richard
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+9299f034-6c08-4157-80dd-2e8329b435a0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150806T102905Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 16
+
+sitecore\Richard
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{86907888-1A19-4BF6-96F0-70A962918C1A}
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 54
+
+<r owner="sitecore\Richard" date="20150806T102905Z" />
