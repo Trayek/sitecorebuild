@@ -1,0 +1,79 @@
+----item----
+version: 1
+id: {7D342400-0DDB-4EBB-81F9-66DC277A559A}
+database: master
+path: /sitecore/content/Prudential/Home/Events/Tom Jones death rumours untrue
+parent: {392579BF-1B90-47F5-98A5-9A4502C3AF83}
+name: Tom Jones death rumours untrue
+master: {00000000-0000-0000-0000-000000000000}
+template: {2F75C8AF-35FC-4A88-B585-7595203F442C}
+templatekey: News Article
+
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 38
+
+{7B0575A7-7211-4248-AF91-4F25AF93D1CB}
+----version----
+language: en
+version: 1
+revision: 69e0979a-fb3c-4bad-a034-2edf984a76e0
+
+----field----
+field: {1B483E91-D8C4-4D19-BA03-462074B55936}
+name: ShortTitle
+key: shorttitle
+content-length: 37
+
+Tom Jones death rumours untrue edited
+----field----
+field: {1B86697D-60CA-4D80-83FB-7555A2E6CE1C}
+name: __Source
+key: __source
+content-length: 70
+
+sitecore://master/{201FDBBE-AA08-42D1-AE1D-B05CB9D5AB45}?lang=en&ver=2
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20150807T093518Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+69e0979a-fb3c-4bad-a034-2edf984a76e0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20150807T093546Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 38
+
+{86907888-1A19-4BF6-96F0-70A962918C1A}
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 0
+
+

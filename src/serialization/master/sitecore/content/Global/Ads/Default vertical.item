@@ -12,15 +12,15 @@ templatekey: Advert
 ----version----
 language: en
 version: 1
-revision: b9d1cd66-c7a9-4993-93c1-ae6d41992139
+revision: b8340eeb-d7bf-4359-a4d5-24ca8f03e5f5
 
 ----field----
 field: {B57CC823-6919-4432-9631-D7D369130287}
 name: Image
 key: image
-content-length: 65
+content-length: 58
 
-<image mediaid="{4659D4B6-D20E-48AA-8AC1-CE3E40EBF4DD}" ></image>
+<image mediaid="{DA975469-187D-4128-935B-0999EC21BA63}" />
 ----field----
 field: {CFEB04D6-8933-4F4D-AFB5-2E35910D663B}
 name: Link
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-b9d1cd66-c7a9-4993-93c1-ae6d41992139
+b8340eeb-d7bf-4359-a4d5-24ca8f03e5f5
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150806T091324Z
+20150807T093213Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -33,15 +33,15 @@ ar|sitecore\Prudential News Editors|pe|+item:create|+item:write|^*|pd|+item:crea
 ----version----
 language: en
 version: 1
-revision: 53ac9556-3aa0-4dfd-b8fa-fd3a18d0e162
+revision: bc9631ac-c26e-4d44-a0de-a8da4d5d3d71
 
 ----field----
 field: {04BF00DB-F5FB-41F7-8AB7-22408372A981}
 name: __Final Renderings
 key: __final renderings
-content-length: 888
+content-length: 1106
 
-<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" s:l="{A55B28C9-68C8-4194-AF81-A537995FD51B}"><r uid="{04B194F6-5041-4890-AD35-FC9F6D107CC3}" p:before="r[@uid='{3CE6840D-DC04-40D8-8AE4-855A9F55AAFF}']" s:id="{B11D11C1-21EC-4076-8B15-F3BC45A16E0D}" s:ph="/content/column1_f70aa02a-2b36-4012-9fdc-d265a57a1f9e" /><r uid="{3CE6840D-DC04-40D8-8AE4-855A9F55AAFF}" p:before="r[@uid='{F70AA02A-2B36-4012-9FDC-D265A57A1F9E}']" s:ds="{EC728B27-C394-4201-AEDC-ABE2E9E6B252}" s:id="{57E408E4-B34D-4B4C-865E-3E2272ED3D0B}" s:par="" s:ph="/content/column2_f70aa02a-2b36-4012-9fdc-d265a57a1f9e" /><r uid="{F70AA02A-2B36-4012-9FDC-D265A57A1F9E}" p:before="r[@uid='{1A76FDB0-2D1F-4E90-8BAF-150567873F2B}']" s:ds="" s:id="{FEDC3E28-2559-40F8-A08B-76BC7B42BB61}" s:par="FullWidth&amp;ShowTitle&amp;ShowBreadcrumb&amp;Column1Width&amp;Column2Width" s:ph="content" /></d></r>
+<r xmlns:p="p" xmlns:s="s" p:p="1"><d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" s:l="{A55B28C9-68C8-4194-AF81-A537995FD51B}"><r uid="{BAC8774A-9C3C-48AD-990B-6C3E5F5BA86B}" p:before="r[@uid='{04B194F6-5041-4890-AD35-FC9F6D107CC3}']" s:ds="{EC728B27-C394-4201-AEDC-ABE2E9E6B252}" s:id="{CDE40088-C049-4819-968B-3696C7381393}" s:ph="bannerad" /><r uid="{04B194F6-5041-4890-AD35-FC9F6D107CC3}" p:before="r[@uid='{3CE6840D-DC04-40D8-8AE4-855A9F55AAFF}']" s:id="{B11D11C1-21EC-4076-8B15-F3BC45A16E0D}" s:ph="/content/column1_f70aa02a-2b36-4012-9fdc-d265a57a1f9e" /><r uid="{3CE6840D-DC04-40D8-8AE4-855A9F55AAFF}" p:before="r[@uid='{F70AA02A-2B36-4012-9FDC-D265A57A1F9E}']" s:ds="{EC728B27-C394-4201-AEDC-ABE2E9E6B252}" s:id="{57E408E4-B34D-4B4C-865E-3E2272ED3D0B}" s:par="" s:ph="/content/column2_f70aa02a-2b36-4012-9fdc-d265a57a1f9e" /><r uid="{F70AA02A-2B36-4012-9FDC-D265A57A1F9E}" p:before="r[@uid='{1A76FDB0-2D1F-4E90-8BAF-150567873F2B}']" s:ds="" s:id="{FEDC3E28-2559-40F8-A08B-76BC7B42BB61}" s:par="FullWidth&amp;ShowTitle&amp;ShowBreadcrumb&amp;Column1Width&amp;Column2Width" s:ph="content" /></d></r>
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -69,14 +69,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-53ac9556-3aa0-4dfd-b8fa-fd3a18d0e162
+bc9631ac-c26e-4d44-a0de-a8da4d5d3d71
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20150806T093741Z
+20150807T093153Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by
